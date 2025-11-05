@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5615482366786148541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2331930781241690554}
+  - component: {fileID: 9006142907770066832}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2331930781241690554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5615482366786148541}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9006142907770066832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5615482366786148541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636b7d2cbda98424d9ca4d7d01536b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemSO: {fileID: 11400000, guid: 07d0f8ab6aaf6bb4d9c6756891606d9d, type: 2}
+  QuestSO: {fileID: 11400000, guid: bb423afe4569f604cb49e2c772db49ca, type: 2}
+  NpcSO: {fileID: 11400000, guid: 912c7ce1b873d2b4ea88e38b51cc2fa3, type: 2}
+  DialogsSO: {fileID: 11400000, guid: 9dd57c34ac9027d4ea46d9a44fc77dd9, type: 2}
+  PlayerSO: {fileID: 11400000, guid: 8013b8260a3684049a6b3c2c0f8464e3, type: 2}
+  VesselSO: {fileID: 11400000, guid: e60c005853af44243a60c9dd1a50ce2c, type: 2}
+  AmbienceSO: {fileID: 11400000, guid: 121c287647160624f94f068066d67ec6, type: 2}
+  VesselPlayer: {fileID: 0}
+  Ambience: {fileID: 0}

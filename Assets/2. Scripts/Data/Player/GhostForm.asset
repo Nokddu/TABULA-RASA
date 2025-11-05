@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b787b6bc16ff15d46b18118779971512, type: 3}
+  m_Name: GhostForm
+  m_EditorClassIdentifier: 
+  <FormData>k__BackingField:
+    FormType: 0
+    name: Ghost
+    <Animator>k__BackingField: {fileID: 9100000, guid: e0271529e70211f4e87f21e07bf5e361, type: 2}
+    <ColliderSize>k__BackingField: {x: 0.5, y: 1}
+    <ColliderOffset>k__BackingField: {x: 0, y: 0}

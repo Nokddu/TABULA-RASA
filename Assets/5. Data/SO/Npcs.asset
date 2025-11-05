@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d6bef7a9096e4144a7dde6f08e6fa5b, type: 3}
+  m_Name: Npcs
+  m_EditorClassIdentifier: 
+  NpcData:
+  - Id: 30000
+    Name: "\uD29C\uD1A0\uB9AC\uC5BC \uC138\uC774\uBE0C"
+    PosX: 63
+    PosY: 0
+    AreaIndex: 0
+  - Id: 31001
+    Name: "\uC800\uC7A5\uC7A5\uCE58 1"
+    PosX: 26
+    PosY: -12
+    AreaIndex: 1
+  - Id: 31101
+    Name: "\uBD80\uC11C\uC9C4 \uC758\uC790"
+    PosX: -5
+    PosY: -10
+    AreaIndex: 1
+  - Id: 31102
+    Name: "\uC0B0\uC0B0\uC870\uAC01\uB09C \uAE30\uACC4\uC7A5\uCE58"
+    PosX: -8
+    PosY: -9.5
+    AreaIndex: 1
+  - Id: 31103
+    Name: "\uC637\uC7A5"
+    PosX: -10
+    PosY: -1
+    AreaIndex: 1
+  - Id: 31104
+    Name: "\uB0C9\uC7A5\uACE0"
+    PosX: 6
+    PosY: -1
+    AreaIndex: 1
+  - Id: 31105
+    Name: "\uC2DD\uD0C1"
+    PosX: 4
+    PosY: -6
+    AreaIndex: 1
+  - Id: 31106
+    Name: "\uD604\uAD00\uBB38"
+    PosX: 2.375
+    PosY: -15.28
+    AreaIndex: 1
+  - Id: 31107
+    Name: "\uD45C\uC9C0\uD310"
+    PosX: 0
+    PosY: -23
+    AreaIndex: 1
+  - Id: 31108
+    Name: "\uC548\uBC29 \uBB38"
+    PosX: -14.62
+    PosY: -5.23
+    AreaIndex: 1
+  - Id: 31109
+    Name: "\uC220\uBCD1"
+    PosX: 0
+    PosY: -0.5
+    AreaIndex: 1
+  - Id: 31110
+    Name: "\uC758\uBB38\uC758 \uC874\uC7AC"
+    PosX: -33
+    PosY: -7
+    AreaIndex: 1
+  - Id: 32002
+    Name: "\uC800\uC7A5\uC7A5\uCE58 2"
+    PosX: 42
+    PosY: 42
+    AreaIndex: 2
+  - Id: 32003
+    Name: "\uC800\uC7A5\uC7A5\uCE58 3"
+    PosX: 5
+    PosY: 79
+    AreaIndex: 2
+  - Id: 32101
+    Name: "\uD558\uC218\uAD6C"
+    PosX: -39
+    PosY: 41
+    AreaIndex: 2
+  - Id: 32102
+    Name: "\uC870\uC6A9\uD55C \uC18C\uB144"
+    PosX: 37
+    PosY: -5
+    AreaIndex: 2
+  - Id: 32103
+    Name: "\uBD88\uB7C9\uBC30"
+    PosX: -20
+    PosY: 51
+    AreaIndex: 2
+  - Id: 32104
+    Name: "\uD560\uBA38\uB2C8"
+    PosX: -4
+    PosY: 34
+    AreaIndex: 2
+  - Id: 32105
+    Name: "\uBCF4\uC721\uC6D0 \uC120\uC0DD\uB2D8"
+    PosX: 41
+    PosY: 10.5
+    AreaIndex: 2
+  - Id: 32106
+    Name: "\uBCF4\uC721\uC6D0 \uCC45\uC0C1"
+    PosX: 27.5
+    PosY: 3.2
+    AreaIndex: 2
+  - Id: 32107
+    Name: "\uBB38"
+    PosX: -28
+    PosY: 26
+    AreaIndex: 2
+  - Id: 32108
+    Name: "\uC790\uB3D9\uD310\uB9E4\uC7A5\uCE58"
+    PosX: -25
+    PosY: -5.5
+    AreaIndex: 2
+  - Id: 32109
+    Name: "\uC778\uC2DD\uC7A5\uCE58 A"
+    PosX: -35.5
+    PosY: -4
+    AreaIndex: 2
+  - Id: 32110
+    Name: "\uC778\uC2DD\uC7A5\uCE58 B"
+    PosX: -33.5
+    PosY: -4
+    AreaIndex: 2
+  - Id: 32111
+    Name: "\uC778\uC2DD\uC7A5\uCE58 C"
+    PosX: -31.5
+    PosY: -4
+    AreaIndex: 2
+  - Id: 32112
+    Name: "\uC778\uC2DD\uC7A5\uCE58 D"
+    PosX: -29.5
+    PosY: -4
+    AreaIndex: 2
+  - Id: 32113
+    Name: "\uC778\uC2DD\uC7A5\uCE58 E"
+    PosX: -18
+    PosY: 5
+    AreaIndex: 2
+  - Id: 32114
+    Name: "\uC778\uC2DD\uC7A5\uCE58 F"
+    PosX: -18
+    PosY: 4
+    AreaIndex: 2
+  - Id: 32115
+    Name: "\uC778\uC2DD\uC7A5\uCE58 G"
+    PosX: -18
+    PosY: 3
+    AreaIndex: 2
+  - Id: 32116
+    Name: "\uC778\uC2DD\uC7A5\uCE58 H"
+    PosX: -18
+    PosY: 2
+    AreaIndex: 2
+  - Id: 32117
+    Name: "\uC548\uCE58\uC18C \uD45C\uC9C0\uD310"
+    PosX: 9
+    PosY: 7
+    AreaIndex: 2
+  - Id: 32118
+    Name: "\uBD80\uCD0C\uAC00\uB294\uAE38 \uD45C\uC9C0\uD310"
+    PosX: 23
+    PosY: 54
+    AreaIndex: 2
+  - Id: 32119
+    Name: "\uAE68\uC9C4 \uC811\uC2DC"
+    PosX: 23.5
+    PosY: -9
+    AreaIndex: 2
+  - Id: 32120
+    Name: "\uB9D0\uB77C\uBD99\uC740 \uB098\uBB34"
+    PosX: 42
+    PosY: -10
+    AreaIndex: 2
+  - Id: 32121
+    Name: "\uCC45\uC0C1"
+    PosX: 11
+    PosY: 31
+    AreaIndex: 2
+  - Id: 32122
+    Name: "\uCE68\uB300"
+    PosX: -1
+    PosY: 36.5
+    AreaIndex: 2
+  - Id: 32123
+    Name: "\uAC00\uC871\uC0AC\uC9C4"
+    PosX: 3.5
+    PosY: 39
+    AreaIndex: 2
+  - Id: 32124
+    Name: "\uB9E4\uD2B8\uB9AD\uC2A4"
+    PosX: 38.5
+    PosY: 9.5
+    AreaIndex: 2
+  - Id: 32125
+    Name: "\uBCF4\uC721\uC6D0 \uB0C9\uC7A5\uACE0"
+    PosX: 40
+    PosY: 3
+    AreaIndex: 2
+  - Id: 32126
+    Name: "\uC7A0\uAE34 \uCC3D\uBB38"
+    PosX: -23
+    PosY: 27.15
+    AreaIndex: 2
+  - Id: 32127
+    Name: "\uD658\uC790"
+    PosX: -3
+    PosY: 104.5
+    AreaIndex: 2
+  - Id: 32128
+    Name: "\uC120\uBC18A"
+    PosX: -7
+    PosY: 103
+    AreaIndex: 2
+  - Id: 32129
+    Name: "\uC120\uBC18B"
+    PosX: -21
+    PosY: 95
+    AreaIndex: 2
+  - Id: 32130
+    Name: "\uC120\uBC18C"
+    PosX: -7.5
+    PosY: 95
+    AreaIndex: 2
+  - Id: 32131
+    Name: "\uCABD\uC9C0"
+    PosX: -3.5
+    PosY: 101
+    AreaIndex: 2
+  - Id: 32132
+    Name: "\uAD70\uC778"
+    PosX: -43
+    PosY: 23
+    AreaIndex: 2
+  - Id: 32133
+    Name: "\uC758\uBB38\uC758 \uC874\uC7AC"
+    PosX: 21
+    PosY: 13
+    AreaIndex: 2
+  - Id: 32201
+    Name: "\uB2F9\uCC2C \uC18C\uB140"
+    PosX: 28
+    PosY: 13
+    AreaIndex: 2
+  - Id: 33201
+    Name: "\uD654\uAC00"
+    PosX: 3
+    PosY: 60
+    AreaIndex: 3
+  - Id: 34201
+    Name: "AI \uAD50\uC218"
+    PosX: 3
+    PosY: 4
+    AreaIndex: 4
+  - Id: 60001
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 17.68
+    PosY: -9.95
+    AreaIndex: 1
+  - Id: 60002
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 0
+    PosY: 0
+    AreaIndex: 0
+  - Id: 60003
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 15
+    PosY: 0
+    AreaIndex: 0
+  - Id: 60004
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 30
+    PosY: 0
+    AreaIndex: 0
+  - Id: 60005
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 45
+    PosY: 0
+    AreaIndex: 0
+  - Id: 60006
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 60
+    PosY: 0
+    AreaIndex: 0
+  - Id: 60007
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 75
+    PosY: 0
+    AreaIndex: 0
+  - Id: 61002
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 18.96
+    PosY: -6.41
+    AreaIndex: 2
+  - Id: 61003
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: -39.04
+    PosY: 41.93
+    AreaIndex: 2
+  - Id: 60008
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: -4
+    PosY: -6.5
+    AreaIndex: 1
+  - Id: 60009
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: -3.52
+    PosY: -10.149
+    AreaIndex: 1
+  - Id: 60010
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 1
+    PosY: -5
+    AreaIndex: 1
+  - Id: 62004
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 14
+    PosY: 88
+    AreaIndex: 2
+  - Id: 62005
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: 23.5
+    PosY: 65
+    AreaIndex: 2
+  - Id: 61006
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: -10.43876
+    PosY: 58.27687
+    AreaIndex: 2
+  - Id: 0
+    Name: "\uD50C\uB808\uC774\uC5B4"
+    PosX: -1
+    PosY: -1
+    AreaIndex: -1

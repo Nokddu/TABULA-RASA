@@ -3,11 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Item
-  - Human
-  - Cat
-  - Dog
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -15,12 +11,12 @@ TagManager:
   - 
   - Water
   - UI
-  - Item
   - 
-  - Possessable
-  - PostProcessing
-  - NPC
-  - Interact
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -44,16 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Object
-    uniqueID: 992732879
-    locked: 0
-  - name: Player
-    uniqueID: 619509103
-    locked: 0
-  - name: BehindObstacle
-    uniqueID: 3639309275
-    locked: 0
-  - name: ForeGround
-    uniqueID: 1829999011
     locked: 0

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b662e93166e9973448253c5cbb74a6d2, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  Item:
+  - Id: 1101
+    Name: "\uBAA8\uC790"
+    Description: "\uBA38\uB9AC\uB97C \uAC00\uB9B4\uC218 \uC788\uC744\uAC83\uAC19\uB2E4."
+    ImagePath: Sprite/Items_1101
+    Width: 2
+    Height: 1
+    shape: []
+    IsDroppable: 0
+  - Id: 1102
+    Name: "\uD56D\uC0DD\uC81C"
+    Description: "\uD558\uC580 \uC0C1\uC790 \uC548\uC5D0 \uC8FC\uC0AC\uAE30\uC640
+      \uC54C\uC57D\uC774 \uACE0\uB8E8 \uB4E4\uC5B4 \uC788\uB2E4."
+    ImagePath: Sprite/Items_1102
+    Width: 2
+    Height: 1
+    shape: []
+    IsDroppable: 1
+  - Id: 1103
+    Name: "\uC0AC\uD0D5"
+    Description: "\uC544\uC774\uB4E4\uC774 \uC88B\uC544\uD560\uB4EF \uD558\uB2E4."
+    ImagePath: Sprite/Items_1103
+    Width: 1
+    Height: 1
+    shape: []
+    IsDroppable: 1
+  - Id: 1201
+    Name: "\uCE74\uB4DC\uD0A4"
+    Description: "\uC778\uC99D\uC774 \uD544\uC694\uD568"
+    ImagePath: Sprite/Items_1201
+    Width: 1
+    Height: 1
+    shape: []
+    IsDroppable: 1
+  - Id: 1202
+    Name: "\uC637\uAC78\uC774"
+    Description: "\uD718\uC5B4\uC9C4 \uB0A1\uC740 \uCCA0\uC0AC \uC637\uAC78\uC774."
+    ImagePath: Sprite/Items_1202
+    Width: 1
+    Height: 4
+    shape: []
+    IsDroppable: 1
+  - Id: 1203
+    Name: "\uAE34 \uB048"
+    Description: "\uAE38\uACE0 \uC9C8\uAE34 \uB048\uC774\uB2E4."
+    ImagePath: Sprite/Items_1203
+    Width: 1
+    Height: 3
+    shape: []
+    IsDroppable: 1
+  - Id: 1204
+    Name: "\uAC04\uC774 \uB09A\uC2EF\uB300"
+    Description: "\uBB3C\uACE0\uAE30\uB3C4, \uC0AC\uB78C\uB3C4 \uB9D0\uACE0 \uC5F4\uC1E0\uB97C
+      \uB09A\uC744 \uB09A\uC2EF\uB300."
+    ImagePath: Sprite/Items_1204
+    Width: 2
+    Height: 3
+    shape: []
+    IsDroppable: 1
+  - Id: 1205
+    Name: "\uB204\uAD70\uAC00\uC758 \uC9D1\uC5F4\uC1E0"
+    Description: "\uC2E4\uC218\uB85C \uD758\uB838\uC744\uAE4C, \uC77C\uBD80\uB7EC
+      \uBC84\uB838\uC744\uAE4C?"
+    ImagePath: Sprite/Items_1205
+    Width: 1
+    Height: 1
+    shape: []
+    IsDroppable: 1
+  - Id: 1206
+    Name: "\uAE30\uC5B5\uC758 \uC870\uAC01"
+    Description: "\uB2F9\uC2E0\uC774 \uC138\uC0C1\uC744 \uB4E4\uC5EC\uB2E4\uBCF4\uBA74,
+      \uC138\uC0C1\uB3C4 \uB2F9\uC2E0\uC744 \uB4E4\uC5EC\uB2E4\uBCF4\uAC8C \uB420
+      \uAC83\uC774\uB2E4."
+    ImagePath: Sprite/Items_1206
+    Width: 1
+    Height: 1
+    shape: []
+    IsDroppable: 1
+  InitGroundItemInfo:
+  - Id: 1101
+    AreaIndex: 0
+    PosX: 46
+    PosY: 0
+  - Id: 1103
+    AreaIndex: 1
+    PosX: 1.5
+    PosY: -5
+  - Id: 1102
+    AreaIndex: 2
+    PosX: -15
+    PosY: 71
+  - Id: 1201
+    AreaIndex: 2
+    PosX: -28
+    PosY: 37

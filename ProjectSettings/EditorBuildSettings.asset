@@ -6,22 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/1. Scenes/Title.unity
-    guid: a14aebf3a9b92ae459627e5ce7d131e1
-  - enabled: 1
-    path: Assets/1. Scenes/Tutorial.unity
-    guid: 29cbc9ee5a10e8146bd206fd80f3847e
-  - enabled: 1
-    path: Assets/1. Scenes/Home.unity
-    guid: 9a9e848b36d986b4699568d088e02a5f
-  - enabled: 1
-    path: Assets/1. Scenes/PoorTown.unity
-    guid: e46cd481fdab3d34194b6c616e4101d1
-  - enabled: 1
-    path: Assets/1. Scenes/RichTown.unity
-    guid: b90febba110237c4092dd52c994d894b
-  - enabled: 1
-    path: Assets/1. Scenes/RuralTown.unity
-    guid: 47aa1fee81f836f4981be9e3596cb095
-  m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: 38f27d8d809d4fb458ad1c101034cdac, type: 2}
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  m_configObjects: {}

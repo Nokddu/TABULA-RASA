@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbbbe2a7a2a684248ad0d3afd420b991, type: 3}
+  m_Name: Ambience
+  m_EditorClassIdentifier: 
+  PoolList:
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: BonFire
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Coughing
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: DesertWind
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Breeze
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Electric
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Mart
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Sewer
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: MotoCycles
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: EmptyHouse
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Clock
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Rain
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Hospital
+    PosX: 0
+    PosY: 0
+  - AreaIndex: 0
+    PrefabsIndex: 0
+    Tag: Fly
+    PosX: 0
+    PosY: 0

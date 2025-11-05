@@ -1,0 +1,5021 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393c28cf5c1212440ad555cd3da8a50f, type: 3}
+  m_Name: Dialogs
+  m_EditorClassIdentifier: 
+  EntityDialogMap:
+  - Id: 30000
+    State: 1
+    Condition: 
+    TargetDialogId: 910
+  - Id: 30000
+    State: 0
+    Condition: 
+    TargetDialogId: 910
+  - Id: 31101
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31101
+    State: 1
+    Condition: 
+    TargetDialogId: 4101
+  - Id: 31101
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31102
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31102
+    State: 1
+    Condition: 
+    TargetDialogId: 4102
+  - Id: 31102
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31103
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31103
+    State: 1
+    Condition: 2$1101
+    TargetDialogId: 4111
+  - Id: 31103
+    State: 1
+    Condition: 
+    TargetDialogId: 4104
+  - Id: 31103
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31104
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31104
+    State: 1
+    Condition: 
+    TargetDialogId: 4105
+  - Id: 31104
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31105
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31105
+    State: 1
+    Condition: 
+    TargetDialogId: 4107
+  - Id: 31105
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31106
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31106
+    State: 1
+    Condition: 0$1103
+    TargetDialogId: 4109
+  - Id: 31106
+    State: 1
+    Condition: 
+    TargetDialogId: 4108
+  - Id: 31106
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31107
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31107
+    State: 1
+    Condition: 
+    TargetDialogId: 4110
+  - Id: 31107
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31108
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31108
+    State: 1
+    Condition: 
+    TargetDialogId: 4114
+  - Id: 31108
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31109
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31109
+    State: 1
+    Condition: 
+    TargetDialogId: 4115
+  - Id: 31109
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31110
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 31110
+    State: 1
+    Condition: 
+    TargetDialogId: 4116
+  - Id: 31110
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31001
+    State: 0
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 31001
+    State: 1
+    Condition: 
+    TargetDialogId: 4112
+  - Id: 31001
+    State: 2
+    Condition: 
+    TargetDialogId: 4112
+  - Id: 32117
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32117
+    State: 1
+    Condition: 
+    TargetDialogId: 4302
+  - Id: 32117
+    State: 2
+    Condition: 
+    TargetDialogId: 4301
+  - Id: 32118
+    State: 1
+    Condition: 
+    TargetDialogId: 4303
+  - Id: 32118
+    State: 2
+    Condition: 
+    TargetDialogId: 4303
+  - Id: 32118
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32119
+    State: 1
+    Condition: 
+    TargetDialogId: 4315
+  - Id: 32119
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32119
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32101
+    State: 1
+    Condition: 2$1205
+    TargetDialogId: 4266
+  - Id: 32101
+    State: 1
+    Condition: 0$1202,1203
+    TargetDialogId: 4267
+  - Id: 32101
+    State: 1
+    Condition: 
+    TargetDialogId: 4313
+  - Id: 32101
+    State: 2
+    Condition: 
+    TargetDialogId: 4266
+  - Id: 32101
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32102
+    State: 0
+    Condition: 
+    TargetDialogId: 4337
+  - Id: 32102
+    State: 1
+    Condition: 6$21
+    TargetDialogId: 4338
+  - Id: 32102
+    State: 1
+    Condition: 2$1202
+    TargetDialogId: 4224
+  - Id: 32102
+    State: 1
+    Condition: 
+    TargetDialogId: 4221
+  - Id: 32102
+    State: 2
+    Condition: 
+    TargetDialogId: 4227
+  - Id: 32103
+    State: 0
+    Condition: 6$21
+    TargetDialogId: 4416
+  - Id: 32103
+    State: 1
+    Condition: 6$21
+    TargetDialogId: 4341
+  - Id: 32103
+    State: 1
+    Condition: 
+    TargetDialogId: 4255
+  - Id: 32103
+    State: 2
+    Condition: 
+    TargetDialogId: 4254
+  - Id: 32104
+    State: 0
+    Condition: 
+    TargetDialogId: 4417
+  - Id: 32104
+    State: 2
+    Condition: 
+    TargetDialogId: 4238
+  - Id: 32104
+    State: 1
+    Condition: 6$21
+    TargetDialogId: 4418
+  - Id: 32104
+    State: 1
+    Condition: 2$1203
+    TargetDialogId: 4247
+  - Id: 32104
+    State: 1
+    Condition: 
+    TargetDialogId: 4239
+  - Id: 32105
+    State: 1
+    Condition: 6$21
+    TargetDialogId: 4421
+  - Id: 32105
+    State: 1
+    Condition: 
+    TargetDialogId: 4237
+  - Id: 32105
+    State: 2
+    Condition: 
+    TargetDialogId: 4237
+  - Id: 32105
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32106
+    State: 0
+    Condition: 6$21
+    TargetDialogId: 4422
+  - Id: 32106
+    State: 1
+    Condition: 6$21
+    TargetDialogId: 4422
+  - Id: 32106
+    State: 2
+    Condition: 6$21
+    TargetDialogId: 4422
+  - Id: 32106
+    State: 3
+    Condition: 6$21
+    TargetDialogId: 4422
+  - Id: 32106
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32106
+    State: 1
+    Condition: 
+    TargetDialogId: 4228
+  - Id: 32106
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32107
+    State: 1
+    Condition: 0$1205
+    TargetDialogId: 4263
+  - Id: 32107
+    State: 1
+    Condition: 
+    TargetDialogId: 4262
+  - Id: 32107
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32107
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32108
+    State: 0
+    Condition: 6$21
+    TargetDialogId: 4423
+  - Id: 32108
+    State: 1
+    Condition: 2$1102
+    TargetDialogId: 4298
+  - Id: 32108
+    State: 1
+    Condition: 
+    TargetDialogId: 4273
+  - Id: 32108
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32108
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32109
+    State: 1
+    Condition: 0$1201
+    TargetDialogId: 4271
+  - Id: 32109
+    State: 1
+    Condition: 
+    TargetDialogId: 4293
+  - Id: 32109
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32109
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32110
+    State: 1
+    Condition: 0$1201
+    TargetDialogId: 4271
+  - Id: 32110
+    State: 1
+    Condition: 
+    TargetDialogId: 4293
+  - Id: 32110
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32110
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32111
+    State: 1
+    Condition: 0$1201
+    TargetDialogId: 4271
+  - Id: 32111
+    State: 1
+    Condition: 
+    TargetDialogId: 4293
+  - Id: 32111
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32111
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32112
+    State: 1
+    Condition: 0$1201
+    TargetDialogId: 4271
+  - Id: 32112
+    State: 1
+    Condition: 
+    TargetDialogId: 4293
+  - Id: 32112
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32112
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32113
+    State: 1
+    Condition: 0$1201
+    TargetDialogId: 4271
+  - Id: 32113
+    State: 1
+    Condition: 
+    TargetDialogId: 4293
+  - Id: 32113
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32113
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32114
+    State: 1
+    Condition: 0$1201
+    TargetDialogId: 4271
+  - Id: 32114
+    State: 1
+    Condition: 
+    TargetDialogId: 4293
+  - Id: 32114
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32114
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32115
+    State: 1
+    Condition: 0$1201
+    TargetDialogId: 4271
+  - Id: 32115
+    State: 1
+    Condition: 
+    TargetDialogId: 4293
+  - Id: 32115
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32115
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32116
+    State: 1
+    Condition: 0$1201
+    TargetDialogId: 4271
+  - Id: 32116
+    State: 1
+    Condition: 
+    TargetDialogId: 4293
+  - Id: 32116
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32116
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32120
+    State: 1
+    Condition: 
+    TargetDialogId: 4316
+  - Id: 32120
+    State: 0
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32120
+    State: 2
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32121
+    State: 1
+    Condition: 
+    TargetDialogId: 4317
+  - Id: 32121
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32121
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32122
+    State: 1
+    Condition: 
+    TargetDialogId: 4318
+  - Id: 32122
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32122
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32123
+    State: 1
+    Condition: 
+    TargetDialogId: 4319
+  - Id: 32123
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32123
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32124
+    State: 1
+    Condition: 
+    TargetDialogId: 4320
+  - Id: 32124
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32124
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32125
+    State: 1
+    Condition: 
+    TargetDialogId: 4321
+  - Id: 32125
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32125
+    State: 2
+    Condition: 
+    TargetDialogId: 1002
+  - Id: 32126
+    State: 1
+    Condition: 
+    TargetDialogId: 4322
+  - Id: 32126
+    State: 0
+    Condition: 
+    TargetDialogId: 1001
+  - Id: 32126
+    State: 2
+    Condition: 
+    TargetDialogId: 1000
+  - Id: 32201
+    State: 1
+    Condition: 4$21
+    TargetDialogId: 4202
+  - Id: 32201
+    State: 1
+    Condition: 5$21
+    TargetDialogId: 4215
+  - Id: 32201
+    State: 1
+    Condition: 5$21
+    TargetDialogId: 4216
+  - Id: 32201
+    State: 1
+    Condition: 5$21
+    TargetDialogId: 4217
+  - Id: 32201
+    State: 1
+    Condition: 5$21
+    TargetDialogId: 4218
+  - Id: 32201
+    State: 1
+    Condition: 5$21
+    TargetDialogId: 4219
+  - Id: 32201
+    State: 1
+    Condition: 5$21
+    TargetDialogId: 4220
+  - Id: 32201
+    State: 1
+    Condition: 6$21
+    TargetDialogId: 4413
+  - Id: 32201
+    State: 0
+    Condition: 6$21
+    TargetDialogId: 4336
+  - Id: 32201
+    State: 2
+    Condition: 
+    TargetDialogId: 4204
+  - Id: 32201
+    State: 3
+    Condition: 
+    TargetDialogId: 4201
+  - Id: 32002
+    State: 1
+    Condition: 
+    TargetDialogId: 4299
+  - Id: 32002
+    State: 2
+    Condition: 
+    TargetDialogId: 4299
+  - Id: 32003
+    State: 1
+    Condition: 
+    TargetDialogId: 4311
+  - Id: 32003
+    State: 2
+    Condition: 
+    TargetDialogId: 4311
+  - Id: 32127
+    State: 2
+    Condition: 0$1102
+    TargetDialogId: 4305
+  - Id: 32127
+    State: 2
+    Condition: 
+    TargetDialogId: 4304
+  - Id: 32128
+    State: 2
+    Condition: 
+    TargetDialogId: 4306
+  - Id: 32129
+    State: 2
+    Condition: 
+    TargetDialogId: 4307
+  - Id: 32130
+    State: 2
+    Condition: 2$1102
+    TargetDialogId: 4309
+  - Id: 32130
+    State: 2
+    Condition: 
+    TargetDialogId: 4308
+  - Id: 32131
+    State: 2
+    Condition: 
+    TargetDialogId: 4310
+  - Id: 32128
+    State: 0
+    Condition: 
+    TargetDialogId: 4306
+  - Id: 32129
+    State: 0
+    Condition: 
+    TargetDialogId: 4307
+  - Id: 32130
+    State: 0
+    Condition: 
+    TargetDialogId: 4309
+  - Id: 32131
+    State: 0
+    Condition: 
+    TargetDialogId: 4310
+  - Id: 32132
+    State: 1
+    Condition: 
+    TargetDialogId: 4332
+  - Id: 32128
+    State: 1
+    Condition: 
+    TargetDialogId: 4306
+  - Id: 32129
+    State: 1
+    Condition: 
+    TargetDialogId: 4307
+  - Id: 32130
+    State: 1
+    Condition: 
+    TargetDialogId: 4309
+  - Id: 32131
+    State: 1
+    Condition: 
+    TargetDialogId: 4310
+  - Id: 32133
+    State: 0
+    Condition: 
+    TargetDialogId: 1002
+  - Id: 32133
+    State: 1
+    Condition: 0$1206
+    TargetDialogId: 4327
+  - Id: 32133
+    State: 1
+    Condition: 2$1206
+    TargetDialogId: 4331
+  - Id: 32133
+    State: 1
+    Condition: 
+    TargetDialogId: 4325
+  - Id: 32133
+    State: 2
+    Condition: 
+    TargetDialogId: 1002
+  - Id: 60001
+    State: 4
+    Condition: 
+    TargetDialogId: 6001
+  - Id: 60002
+    State: 4
+    Condition: 
+    TargetDialogId: 900
+  - Id: 60003
+    State: 4
+    Condition: 
+    TargetDialogId: 901
+  - Id: 60004
+    State: 4
+    Condition: 
+    TargetDialogId: 902
+  - Id: 60005
+    State: 4
+    Condition: 
+    TargetDialogId: 903
+  - Id: 60006
+    State: 4
+    Condition: 
+    TargetDialogId: 904
+  - Id: 60007
+    State: 4
+    Condition: 
+    TargetDialogId: 905
+  - Id: 60008
+    State: 4
+    Condition: 
+    TargetDialogId: 6000
+  - Id: 60009
+    State: 4
+    Condition: 
+    TargetDialogId: 6008
+  - Id: 60010
+    State: 4
+    Condition: 
+    TargetDialogId: 6007
+  - Id: 61002
+    State: 4
+    Condition: 
+    TargetDialogId: 6002
+  - Id: 61003
+    State: 4
+    Condition: 
+    TargetDialogId: 6003
+  - Id: 62004
+    State: 4
+    Condition: 
+    TargetDialogId: 6004
+  - Id: 62005
+    State: 4
+    Condition: 
+    TargetDialogId: 6005
+  - Id: 61006
+    State: 4
+    Condition: 
+    TargetDialogId: 6006
+  DialogText:
+  - TargetDialogId: 900
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 901
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 902
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 903
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 904
+    ScriptCount: 2
+    EndActionCount: 1
+  - TargetDialogId: 905
+    ScriptCount: 2
+    EndActionCount: 1
+  - TargetDialogId: 910
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 1000
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 1001
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 1002
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 1003
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 1004
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 1005
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 1006
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 2542
+    ScriptCount: 3
+    EndActionCount: 1
+  - TargetDialogId: 4101
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4102
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4104
+    ScriptCount: 3
+    EndActionCount: 0
+  - TargetDialogId: 4105
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4106
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4107
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4108
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4109
+    ScriptCount: 2
+    EndActionCount: 1
+  - TargetDialogId: 4110
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4111
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4112
+    ScriptCount: 3
+    EndActionCount: 2
+  - TargetDialogId: 4113
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4114
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4115
+    ScriptCount: 3
+    EndActionCount: 0
+  - TargetDialogId: 4116
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4417
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4418
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4419
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4420
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4421
+    ScriptCount: 4
+    EndActionCount: 0
+  - TargetDialogId: 4422
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4423
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4201
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4202
+    ScriptCount: 2
+    EndActionCount: 2
+  - TargetDialogId: 4203
+    ScriptCount: 2
+    EndActionCount: 2
+  - TargetDialogId: 4204
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4205
+    ScriptCount: 4
+    EndActionCount: 2
+  - TargetDialogId: 4206
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4207
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4208
+    ScriptCount: 3
+    EndActionCount: 1
+  - TargetDialogId: 4211
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4212
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4213
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4214
+    ScriptCount: 16
+    EndActionCount: 1
+  - TargetDialogId: 4215
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4216
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4217
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4218
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4219
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4220
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4221
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4222
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4223
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4224
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4225
+    ScriptCount: 4
+    EndActionCount: 0
+  - TargetDialogId: 4226
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4227
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4228
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4229
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4230
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4232
+    ScriptCount: 5
+    EndActionCount: 0
+  - TargetDialogId: 4237
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4238
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4239
+    ScriptCount: 3
+    EndActionCount: 2
+  - TargetDialogId: 4241
+    ScriptCount: 3
+    EndActionCount: 2
+  - TargetDialogId: 4243
+    ScriptCount: 3
+    EndActionCount: 0
+  - TargetDialogId: 4244
+    ScriptCount: 2
+    EndActionCount: 1
+  - TargetDialogId: 4247
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4248
+    ScriptCount: 3
+    EndActionCount: 0
+  - TargetDialogId: 4250
+    ScriptCount: 4
+    EndActionCount: 0
+  - TargetDialogId: 4254
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4255
+    ScriptCount: 2
+    EndActionCount: 2
+  - TargetDialogId: 4256
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4257
+    ScriptCount: 3
+    EndActionCount: 2
+  - TargetDialogId: 4260
+    ScriptCount: 2
+    EndActionCount: 2
+  - TargetDialogId: 4262
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4263
+    ScriptCount: 2
+    EndActionCount: 1
+  - TargetDialogId: 4266
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4267
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4268
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4269
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4271
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4272
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4273
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4274
+    ScriptCount: 3
+    EndActionCount: 0
+  - TargetDialogId: 4277
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4278
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4279
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4280
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4281
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4293
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4297
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4298
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4299
+    ScriptCount: 2
+    EndActionCount: 2
+  - TargetDialogId: 4300
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4301
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4302
+    ScriptCount: 3
+    EndActionCount: 0
+  - TargetDialogId: 4303
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4304
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4305
+    ScriptCount: 5
+    EndActionCount: 0
+  - TargetDialogId: 4306
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4307
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4308
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4309
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4310
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4311
+    ScriptCount: 2
+    EndActionCount: 2
+  - TargetDialogId: 4312
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4313
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4314
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4315
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4316
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4317
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4318
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4319
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4320
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4321
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4322
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4325
+    ScriptCount: 5
+    EndActionCount: 2
+  - TargetDialogId: 4326
+    ScriptCount: 4
+    EndActionCount: 1
+  - TargetDialogId: 4327
+    ScriptCount: 4
+    EndActionCount: 2
+  - TargetDialogId: 4328
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4329
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 4330
+    ScriptCount: 6
+    EndActionCount: 1
+  - TargetDialogId: 4331
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4332
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4333
+    ScriptCount: 1
+    EndActionCount: 2
+  - TargetDialogId: 4334
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4335
+    ScriptCount: 4
+    EndActionCount: 0
+  - TargetDialogId: 4336
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4337
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 4338
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4339
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4340
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4341
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4342
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4343
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4413
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4414
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4415
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4416
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 4417
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 6000
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 6001
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 6002
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 6003
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 6004
+    ScriptCount: 2
+    EndActionCount: 0
+  - TargetDialogId: 6005
+    ScriptCount: 2
+    EndActionCount: 1
+  - TargetDialogId: 6006
+    ScriptCount: 1
+    EndActionCount: 0
+  - TargetDialogId: 6007
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 6008
+    ScriptCount: 3
+    EndActionCount: 0
+  - TargetDialogId: 9001
+    ScriptCount: 1
+    EndActionCount: 1
+  - TargetDialogId: 9002
+    ScriptCount: 1
+    EndActionCount: 0
+  DialogLines:
+  - TargetDialogId: 900_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uAE30\uC5B5 \uC18D \uB204\uAD70\uAC00\uC758 \uBAA9\uC18C\uB9AC\uAC00
+      \uB4E4\uB824\uC628\uB2E4. \u201C\uC131\uACF5\uC801\uC774\uAD70.\u201D \u2018\uB098\u2019\uB294
+      \uC801\uB9C9\uD55C \uBB34\uC9C0\uB85C\uBD80\uD130 \uC5B4\uB834\uD48B\uD55C
+      \uC790\uAC01\uC758 \uC138\uC0C1\uC73C\uB85C \uCC28\uCE30 \uAE68\uC5B4\uB09C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 901_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC774\uB7EC\uD55C \uC0C1\uD0DC\uB97C \uD754\uD788 \uC720\uB839\uC774\uB77C
+      \uBD80\uB974\uB294 \uAC70\uACA0\uC9C0. \u2018\uB098\u2019\uB294 \uBD80\uC720\uD558\uBA70,
+      \uC810\uCC28 \uC874\uC7AC\uAC00 \uD76C\uBBF8\uD574\uC9C0\uB294 \uB290\uB08C\uC744
+      \uBC1B\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 902_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC800\uAC83\uC740\u2026\u2026 \uC721\uCCB4. \uC800 \uC548\uC73C\uB85C
+      \uB4E4\uC5B4\uAC00\uC57C \uD55C\uB2E4. \uBE59\uC758. \uADF8\uB798\uC57C\uB9CC
+      \uB0B4\uAC00 \uD769\uC5B4\uC9C0\uC9C0 \uC54A\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 903_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC721\uCCB4\uB97C \uAC00\uC9C4 \uB098\uB294, \uC138\uC0C1\uC744 \uC778\uC2DD\uD558\uAE30
+      \uC2DC\uC791\uD55C\uB2E4. \uC5EC\uAE30\uC5D0 \uBB34\uC5B8\uAC00\uAC00 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 904_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC544\uC8FC \uD76C\uBBF8\uD55C, \uC57D\uAC04\uC758 \uAE30\uC5B5\uB4E4.
+      \u2018\uB0B4'\uAC00 \uBCF8\uB798 \uAE30\uC5B5\uD558\uACE0 \uC788\uB358 \uC815\uBCF4\uB4E4\uC744
+      \uBD99\uC7A1\uC73C\uB824 \uB178\uB825\uD574 \uBCF8\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 904_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC608\uB97C \uB4E4\uBA74\u2026\u2026. \uC544\uB9C8\uB3C4 \uC800\uAC74
+      '\uAE30\uC5B5\uC744 \uC800\uC7A5\uD558\uB294 \uC7A5\uCE58\u2019. \uADF8\uB7EC\uB098
+      \u2018\uB098\u2019\uC758 \uAE30\uC5B5\uC740\u2026. \uB9C8\uCE58 \uACE0\uC7A5\uB09C
+      \uAC83\uCC98\uB7FC \uB418\uC9DA\uC5B4\uC9C0\uC9C0 \uC54A\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 905_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBB34\uC5B8\uAC00\uAC00 \uC55E\uC744 \uAC00\uB85C\uB9C9\uACE0 \uC788\uB2E4\u2026\u2026
+      \uB610 \uB2E4\uC2DC, \uC18C\uB9AC\uAC00 \uB4E4\uB9B0\uB2E4. \u201C\uBBF8\uC548\uD558\uB2E4.\u201D
+      \uBB34\uC5C7\uC774 \uBBF8\uC548\uD558\uB2E4\uB294 \uAC78\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 905_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC21C\uAC04, \uC774 \uACF5\uAC04 \uC790\uCCB4\uAC00 \uC5B4\uB5A0\uD55C
+      \uACFC\uAC70\uC758 \uC7AC\uC0DD\uC784\uC744 \uAE68\uB2EB\uB294\uB2E4. \uD754\uD788\uB4E4,
+      \uC8FC\uB9C8\uB4F1\uC774\uB77C\uACE0 \uBD80\uB974\uB294 \uADF8\uAC83\uC77C\uAE4C\u2026?
+      \uB2E4\uC2DC\uAE08 \u2018\uB098\u2019\uB97C \uC721\uCCB4\uC5D0\uC11C \uBD84\uB9AC\uD574
+      \uB098\uC544\uAC00\uBA74, \uC774 \uD558\uC580 \uACF5\uAC04\uB3C4 \uB05D\uB0A0
+      \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 910_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uAE30\uC5B5, \uC989 \uB370\uC774\uD130\uB97C \uC800\uC7A5\uD558\uB294
+      \uC7A5\uCE58\uC778 \uAC83 \uAC19\uB2E4. \uC791\uB3D9\uC740 \uD558\uC9C0 \uC54A\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 1000_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC57C\uC639)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 1001_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC720\uB839\uC778 \uCC44\uB85C, \uADF8\uC800 \uD1B5\uACFC\uD574 \uC9C0\uB098\uAC04\uB2E4....)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 1002_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"...\uC548\uB155. \uC774\uC655\uC774\uBA74.... \uC0AC\uB78C\uC758
+      \uBAA8\uC2B5\uC73C\uB85C \uB2E4\uC2DC \uC640\uC904\uB798? \uBCC4\uAC74 \uC544\uB2C8\uC9C0\uB9CC...
+      \uC9C0\uAE08\uBD80\uD130 \uB0B4\uAC00 \uD558\uACE0\uC790 \uD558\uB294 \uC774\uC57C\uAE30\uC5D4
+      \uADF8 \uBAA8\uC2B5\uC774 \uC88B\uC744 \uAC83 \uAC19\uC544.\""
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 2542_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uC548\uB155, \uB098\uB294 \uD654\uAC00\uC57C. \uB0B4\uAC00 \uBCBD\uD654\uB97C
+      \uADF8\uB9AC\uB294 \uAC78 \uB3C4\uC640\uC904 \uC218 \uC788\uC744\uAE4C?\""
+    Speaker: 33201
+    TypingSpeed: 0.015
+  - TargetDialogId: 2542_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uD589\uBCF5\uD574\uC9C0\uB294 \uADF8\uB9BC\uC744 \uADF8\uB824\uC11C
+      \uC0AC\uB78C\uB4E4\uC744 \uC6C3\uAC8C \uD574\uC8FC\uB294 \uAC83, \uADF8\uAC8C
+      \uC9C0\uAE08 \uB098\uC758 \uCD5C\uACE0\uC758 \uC800\uD56D\uC774\uAC70\uB4E0!\""
+    Speaker: 33201
+    TypingSpeed: 0.015
+  - TargetDialogId: 2542_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "......Tabula Rasa 2\uB97C \uAE30\uB300\uD574 \uC8FC\uC138\uC694!"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4101_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBD80\uC11C\uC838 \uC788\uB294 \uC758\uC790. \uC606\uC5D0 \uC788\uB294
+      \uBB34\uC5B8\uAC00\uB97C \uBD80\uC220 \uB54C \uC0AC\uC6A9\uD55C \uB4EF\uD558\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4102_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC774 \uAE30\uACC4\uC7A5\uCE58\uC5D0 \uB2F4\uAE34 \uAC83\uC774 \uBB34\uC5C7\uC774\uC5C8\uB4E0,
+      \uC9C0\uAE08\uC740 \uBABB \uC4F0\uAC8C \uB418\uC5C8\uACA0\uC9C0. \uB204\uAD70\uAC00
+      \uAC15\uD55C \uBB3C\uB9AC\uB825\uC744 \uAC00\uD574 \uD30C\uAD34\uD55C \uAC83
+      \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4102_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uADF8 \uB204\uAD70\uAC00\uB294\u2026 \uC815\uD669\uC0C1, \u2018\uB098\u2019\uC77C\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4104_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC637\uC7A5 \uC548\uC5D0\uB294 \uC544\uBB34\uAC83\uB3C4 \uC5C6\uB2E4.
+      \uBA3C\uC9C0\uC640... \uC637\uC7A5 \uC548 \uBCBD\uC5D0 \uBD99\uC740 \uAC70\uC6B8\uBFD0\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4104_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "('\uB098'\uC758 \uC637\uCC28\uB9BC\uC744 \uC0B4\uD3B4\uBCF8\uB2E4....
+      \uD558\uC580\uC0C9 \uCE7C\uB77C\uB97C \uAC00\uC9C4 \uC591\uC9C8\uC758 \uC154\uCE20.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4104_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC774\uB7F0 \uC637\uC744 \uC785\uB294 \uC778\uAC04\uC758 \uC637\uC7A5\uC774
+      \uC774\uB807\uAC8C \uD145\uD145 \uBE44\uC5B4 \uC788\uB294 \uAC83\uC740 \uC758\uC544\uD55C
+      \uC77C\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4105_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC804\uAE30\uAC00 \uB4E4\uC5B4\uC624\uC9C0 \uC54A\uB294 \uB0C9\uC7A5\uACE0.
+      \uC5F4\uC5B4 \uBCFC\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4106_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB0C9\uC7A5\uACE0 \uC548\uC740 \uD145 \uBE44\uC5C8\uB2E4. \uC0DD\uD65C\uAC10\uC774
+      \uC804\uD600 \uB290\uAEF4\uC9C0\uC9C0 \uC54A\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4107_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC2DD\uD0C1\uC5D0\uC11C \uC758\uC790 \uD558\uB098\uAC00 \uBE60\uC838
+      \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4108_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC9D1\uC548\uC5D0 \uC544\uC9C1 \uBB34\uC5B8\uAC00 \uB0A8\uC544\uC788\uB294
+      \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4109_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBB38\uC5D0\uB294 \uC7A0\uAE08\uC7A5\uCE58\uAC00 \uAC78\uB824\uC788\uB2E4..)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4109_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC9D1\uC548\uC5D0 \uC774 \uC7A0\uAE08\uC7A5\uCE58\uB97C \uD480\uB9CC\uD55C
+      \uD78C\uD2B8\uAC00 \uC788\uC744\uAE4C..?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4110_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC232\uC9C0\uAE30\uC758 \uC9D1. \uB9C8\uC744\uB85C \uAC00\uB824\uBA74
+      \uBD81\uCABD\uC73C\uB85C \u2026m. \uAD6D\uB9BD \uACF5\uC6D0\uC740 \uBD81\uB3D9\uCABD\uC73C\uB85C
+      \u2026m.\u201D"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4110_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC232\uC9C0\uAE30\uC758 \uC9D1\uC774\uB77C... '\uB098'\uB294 \uC232\uC9C0\uAE30\uC600\uC744\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4111_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC637\uC7A5\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4112_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB0A1\uC740 \uD0DC\uADF8\uC5D0 \uAE00\uC790\uAC00 \uC4F0\uC5EC \uC788\uB2E4.
+      \uB370\uC774\uD130 \uD30C\uC77C\uC11C\uBC84 - 21XX\uB144\uD615.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4112_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC190\uC0C1\uB41C \uBA38\uB9AC\uC5D0\uC11C \uAE30\uC5B5\uC744 \uC9DC\uB0B4
+      \uBCF8\uB2E4. \uC778\uACF5\uC9C0\uB2A5\uC774 \uB300\uC911\uD654\uB41C \uC2DC\uB300\uC774\uBBC0\uB85C,
+      \uB9C8\uC744\uB9C8\uB2E4 \uC774\uB7F0 \uAC83\uC774 \uD754\uD788 \uC704\uCE58\uD574
+      \uC788\uB2E4. \uC774\uB807\uAC8C \uC678\uC9C4 \uC9D1 \uADFC\uCC98\uC5D0 \uC788\uB294
+      \uAC83\uC740\u2026. \uC774\uB840\uC801\uC77C\uC9C0\uB3C4 \uBAA8\uB974\uC9C0\uB9CC.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4112_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uD544\uC694 \uC2DC \uAE30\uB85D\uC744 \uB0A8\uAE38 \uC218 \uC788\uC744
+      \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4113_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB098\uC758 \uAE30\uB85D\uC744 \uC800\uC7A5\uD588\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4114_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBB38\uC774 \uC5F4\uB9AC\uC9C0 \uC54A\uB294\uB2E4.. \uC548\uC744
+      \uC0B4\uD3B4\uBCFC \uB2E4\uB978 \uBC29\uBC95\uC774 \uC788\uC744\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4115_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uACE0\uAE09 \uC640\uC778\uC774\uB2E4. \uC220\uBCD1\uC740 \uBE44\uC5B4\uC788\uB2E4.
+      )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4115_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBCD1 \uC785\uAD6C\uC5D0 \uBB3B\uC740 \uD754\uC801\uC744 \uBCF4\uB2C8
+      \uB9C8\uC2E0\uC9C0 \uC5BC\uB9C8 \uC548\uB410\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4115_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC544\uBB34\uB7F0 \uAE30\uC5B5\uC774 \uB098\uC9C0 \uC54A\uB294\uAC8C
+      \uC220 \uB54C\uBB38\uC77C\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4116_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uB9D0\uC774 \uC5C6\uB2E4. \uADF8\uC800 \uBB35\uBB35\uD788, \u2018\uB098\u2019\uB97C
+      \uC8FC\uC2DC\uD558\uACE0 \uC788\uB294 \uAC83 \uAC19\uB2E4\u2026\u2026 \uB300\uCCB4
+      \uB204\uAD6C\uC77C\uAE4C?"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4201_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(10\uB300 \uCD08\uC911\uBC18\uC73C\uB85C \uCD94\uC815\uB418\uB294 \uB2E4\uBD80\uC9C4
+      \uC18C\uB140. \uC758\uC9C0\uAC00 \uB290\uAEF4\uC9C0\uB294 \uB450 \uB208\uC774
+      \uAE30\uBBFC\uD558\uAC8C \uC8FC\uBCC0\uC744 \uD3EC\uCC29\uD55C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4202_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(10\uB300 \uCD08\uC911\uBC18\uC73C\uB85C \uCD94\uC815\uB418\uB294 \uB2E4\uBD80\uC9C4
+      \uC18C\uB140. \uC758\uC9C0\uAC00 \uB290\uAEF4\uC9C0\uB294 \uB450 \uB208\uC774
+      \uAE30\uBBFC\uD558\uAC8C \uC8FC\uBCC0\uC744 \uD3EC\uCC29\uD55C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4202_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC5B4? \uBABB \uBCF4\uB358 \uC0AC\uB78C\uC774\uB124\u2026 \uC544\uC90C\uB9C8?
+      \uC544\uC800\uC528\uC778\uAC00? \uB204\uAD6C\uC138\uC694?\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4203_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uBB50? \uAE30\uC5B5\uC744 \uC783\uC5C8\uC5B4? \uC720\uC77C\uD558\uAC8C
+      \uAE30\uC5B5\uB098\uB294 \uAC8C, \uD558\uC597\uACE0 \uC5F0\uAD6C\uC2E4 \uAC19\uC740
+      \uD48D\uACBD\uC774\uB77C\uAD6C\u2026?\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4203_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 1
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\u2026.\uADF8\uB807\uB2E4\uBA74 \uC544\uC800\uC528\uB294, \uC6D0\uB798
+      \uB300\uD559\uAD50\uC5D0 \uC788\uC9C0 \uC54A\uC558\uC744\uAE4C? \uC694\uC998\uC5D0
+      \uAC70\uAE30\uC11C \uC0AC\uB78C\uB4E4\uC774 \uB9CE\uC774 \uC7A1\uD600\uAC14\uB2E4\uB294
+      \uC18C\uBB38\uC744 \uB4E4\uC5C8\uAC70\uB4E0. \uB9C9 \uB3C4\uB9DD\uCE58\uB2E4\uAC00
+      \uB2E4\uCE58\uAC70\uB098 \uD574\uC11C \uAE30\uC5B5\uC744 \uC783\uC5B4\uBC84\uB9B0
+      \uAC70 \uC544\uB0D0?\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4204_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC18C\uB140\uC758 \uB2E4\uB9AC\uC5D0 \uAC00\uB9CC\uD788 \uD138\uC744
+      \uBD80\uBCBC\uBCF8\uB2E4. \uC800\uB141\uBC14\uB78C\uC744 \uB9DE\uC544 \uCC28\uAC00\uC6CC\uC9C4,
+      \uB9C8\uB978 \uB450 \uB2E4\uB9AC. \uD558\uC9C0\uB9CC \uC544\uC774\uB294 \uAFCB\uAFCB\uC774
+      \uC11C \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4205_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC804\uC7C1 \uC911\uC774\uB77C\uB294 \uAC83\uAE4C\uC9C0 \uC78A\uC5B4\uBC84\uB838\uAD6C\uB098\u2026\""
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4205_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC194\uC9C1\uD788 \uC870\uC624\uAE08 \uC218\uC0C1\uD558\uC9C0\uB9CC,
+      \uC124\uBA85\uD574 \uC904\uAC8C. \uC6B0\uB9AC \uB098\uB77C, \uC804\uC7C1\uC5D0
+      \uC9C0\uACE0 \uC788\uC5B4.\""
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4205_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC606 \uB098\uB77C B\uAD6D\uC5D0 \uC6B0\uB9AC \uAD70\uC774 \uBA3C\uC800
+      \uC2F8\uC6C0\uC744 \uAC78\uC5C8\uB2E4\uB358\uB370, \uADF8\uAC74 \uC798 \uBAA8\uB974\uACA0\uAD6C\u2026.\""
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4205_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC9C0\uAE08\uC740 B\uAD6D \uAD70\uB300\uAC00 \uC774 \uB3C4\uC2DC\uB97C
+      \uC544\uC608 \uC810\uB839\uD588\uC5B4. \uADF8\uB9AC\uACE0 \uBA4B\uB300\uB85C
+      \uC0AC\uB78C\uB4E4\uC744 \uC7A1\uC544\uAC00\uB294 \uAC70\uC9C0.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4206_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uD314\uB9BC\uC138\uC2A4\uD2B8 \uB300\uD559\uAD50. \uACF5\uB300\uAC00
+      \uC5C4\uCCAD \uC720\uBA85\uD574. \uB098\uB3C4 \uCEE4\uC11C \uADF8 \uD559\uAD50\uC5D0
+      \uB2E4\uB2C8\uACE0 \uC2F6\uC5C8\uC5B4. \uAE38\uC744 \uC54C\uB824 \uC8FC\uACE0
+      \uC2F6\uC740\uB370\u2026 \uC5B4\uB5BB\uAC8C \uAC00\uB294\uC9C0\uB294 \uC798
+      \uBAA8\uB974\uACA0\uB124. \uAC80\uC0C9\uD574 \uC8FC\uBA74 \uAC04\uB2E8\uD55C\uB370,
+      \uC694\uC998\uC740 \uC778\uD130\uB137\uC774 \uC548 \uB418\uB2C8\uAE4C.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4207_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 1
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC544, \uC6B0\uB9AC \uC120\uC0DD\uB2D8\uC774\uB77C\uBA74 \uAE38\uC744
+      \uC544\uC2E4\uC9C0\uB3C4 \uBAB0\uB77C. \uD558\uC9C0\uB9CC, \uBA70\uCE60 \uC804\uC5D0
+      \uAC74\uBB3C \uD30C\uD3B8\uC5D0 \uB2E4\uCE58\uC2E0 \uB4A4\uB85C \uC0C1\uCC98\uAC00
+      \uC545\uD654\uB3FC\uC11C \uC77C\uC5B4\uB098\uC9C0 \uBABB\uD558\uACE0 \uACC4\uC154\u2026
+      \uB0B4\uAC00 \uB3C8\uC774\uB098 \uC57D\uC744 \uAD6C\uD558\uB824\uACE0 \uB178\uB825\uC911\uC774\uC9C0\uB9CC
+      \uC27D\uC9C0 \uC54A\uC544. \uD56D\uC0DD\uC81C\uAC00 \uC788\uC73C\uBA74 \uC88B\uC744
+      \uD150\uB370.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4208_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 1
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uD56D\uC0DD\uC81C\uB97C \uAD6C\uD574\uB2E4 \uC900\uB2E4\uACE0?
+      \uC815\uB9D0? \uADF8\uB7FC, \uB098\uB294 \uC120\uC0DD\uB2D8\uC744 \uAC04\uD638\uD558\uBA74\uC11C
+      \uD639\uC2DC \uAE68\uC5B4\uB098\uC2DC\uBA74 \uB300\uD559\uAD50 \uAC00\uB294
+      \uAE38\uC744 \uC5EC\uCB64\uBD10 \uB458\uAC8C. \uC11C\uB85C \uB3C4\uC640\uC8FC\uC790.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4208_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uADFC\uB370, \uC544\uC800\uC528\uB294 \uAE30\uC5B5\uC774 \uC5C6\uC5B4\uC11C
+      \uBAA8\uB974\uACA0\uC9C0\uB9CC\u2026 \uC774 \uB9C8\uC744\uC5D0\uB294 \uBCD1\uC6D0\uC774
+      \uC5C6\uC5B4. \uC2DC\uB0B4\uC758 \uBCD1\uC6D0\uC73C\uB85C \uAC00\uB294 \uB3C4\uB85C\uB294
+      \uBD88\uD0C0\uACE0 \uC788\uC5B4\uC11C \uB3C4\uBB34\uC9C0 \uC9C0\uB098\uAC08
+      \uC218\uAC00 \uC5C6\uAC70\uB4E0\u2026 \uADF8\uB798\uC11C \uC57D\uC744 \uBABB
+      \uAD6C\uD558\uACE0 \uC788\uB294 \uAC70\uC57C. \uB3C8\uB3C4 \uC5C6\uACE0.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4208_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uAC00\uC838\uB2E4\uC8FC\uBA74 \uACE0\uB9C8\uC6B8 \uAC70\uC57C.
+      \uD558\uC9C0\uB9CC \uBAB8\uC870\uC2EC\uD574.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4211_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uD56D\uC0DD\uC81C\uB97C \uAC00\uC838\uC628 \uAC70\uC57C?\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4212_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uAE30\uB300\uD558\uB294 \uC18C\uB140\uC5D0\uAC8C \uD56D\uC0DD\uC81C\uB97C
+      \uB0B4\uBC00\uC5C8\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4213_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 1
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC870\uAE08 \uB354 \uAE30\uB2E4\uB9AC\uB77C\uACE0? \uADF8\uB798.\""
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC138\uC0C1\uC5D0, \uC815\uB9D0\uB85C \uAC00\uC838\uB2E4\uC8FC\uB2E4\uB2C8
+      \uACE0\uB9C8\uC6CC! \uC774\uAC78\uB85C \uB4DC\uB514\uC5B4\u2026 \uC120\uC0DD\uB2D8\uC774
+      \uB098\uC73C\uC2E4 \uC218 \uC788\uC744 \uAC70\uC57C.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uB2E4\uB978 \uC0AC\uB78C\uB4E4\uB3C4\u2026. \uC2DC\uB0B4\uB85C
+      \uAC00\uB294 \uAE38\uC774 \uB9C9\uD788\uC9C0\uB9CC \uC54A\uC558\uB2E4\uBA74.
+      \uC544\uB2C8, \uD3ED\uACA9\uC774 \uC548 \uC77C\uC5B4\uB0AC\uB2E4\uBA74.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uCC98\uC74C\uBD80\uD130 \uC804\uC7C1\uC774 \uC548 \uC77C\uC5B4\uB0AC\uB2E4\uBA74
+      \uC88B\uC558\uC744 \uD150\uB370\u2026\u2026.\u201D"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\u2026.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_4
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uCC38\uC73C\uB85C \uACF5\uAD50\uB85C\uC6B4 \uC2DC\uC810\uC774 \uC544\uB2D0
+      \uC218 \uC5C6\uB2E4. \uC18C\uB140\uB294 \uBB38\uB4DD \uD558\uB298\uC744 \uC62C\uB824\uB2E4\uBCF8\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_5
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBCF4\uC721\uC6D0\uC5D0, \uC800 \uBA40\uB9AC \uBCF4\uC774\uB294 \uAE38\uC5D0,
+      \uADF8\uB9AC\uACE0 \uB9C8\uC744 \uC5B4\uADC0\uC5D0 \uD55C \uBC88\uC529 \uC2DC\uC120\uC744
+      \uBCF4\uB0B4\uACE0\uC11C\u2026)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_6
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 32000
+    Scripts: "(\uB05D\uB0B4 \uC9C0\uC5B4\uBCF4\uC774\uB294 \uBBF8\uC18C\uC640 \uD568\uAED8,
+      \uC720\uB3C5 \uBC18\uC9DD\uC774\uB294 \uB450 \uB208\uB3D9\uC790\uAC00 \uC62C\uACE7\uAC8C
+      \uC774\uCABD\uC744 \uD5A5\uD588\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_7
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 32000
+    Scripts: "\u201C\uBE68\uB798 \uAC77\uC5B4\uC57C\uACA0\uB2E4. \uB3D9\uC0DD\uB3C4
+      \uC548\uC5D0 \uB4E4\uC5B4\uAC00\uC11C \uB180\uB77C\uACE0 \uD574\uC57C\uC9C0.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_8
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 32000
+    Scripts: "\u201C\u2026.\uC800\uAE30 \uC788\uC796\uC544, \uACE0\uB9C8\uC6CC. \uC120\uC0DD\uB2D8\uC774
+      \uB098\uC73C\uC2E0\uB2E4\uBA74 \uC544\uC800\uC528 \uB355\uBD84\uC774\uC57C.\""
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_9
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 32000
+    Scripts: "\u201D\uBE44\uAC00 \uB0B4\uB9AC\uACE0, \uB9CE\uC740 \uBAA9\uC228\uC744
+      \uC557\uC544\uAC04 \uC800 \uBD88\uC774 \uAEBC\uC838\uB3C4\u2026 \uAEBC\uC9C0\uC9C0
+      \uC54A\uB294 \uC544\uD514\uB3C4 \uC788\uC744 \uAC70\uC57C.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_10
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 32000
+    Scripts: "\u201D\uD558\uC9C0\uB9CC, \uB0B4 \uD76C\uB9DD\uB3C4 \uB0B4 \uC0C1\uCC98
+      \uC704\uC5D0\uC11C \uAEBC\uC9C0\uC9C0 \uC54A\uACE0 \uD0C0\uC624\uB97C \uAC70\uAC70\uB4E0.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_11
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 32000
+    Scripts: "\u201D\uC5B4\uB54C? \uBA4B\uC9C0\uC9C0? \uB098, \uD3EC\uAE30\uD558\uC9C0
+      \uC54A\uB294 \uAC83\uB9CC\uC774 \uC7A5\uC810\uC774\uB2C8\uAE4C!\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_12
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 32000
+    Scripts: "\"\uADF8\uB7EC\uB2C8\uAE4C \uC544\uC800\uC528\uB3C4 \uC8FD\uC9C0 \uB9D0\uACE0\u2026
+      \uC544\uD504\uC9C0 \uB9D0\uACE0\u2026 \uAE30\uC5B5\uC744 \uCC3E\uC544\uC11C,
+      \uBCF4\uACE0 \uC2F6\uC740 \uC0AC\uB78C\uB4E4\uC774 \uC788\uB2E4\uBA74 \uAF2D
+      \uB2E4\uC2DC \uB9CC\uB098. \uC54C\uC558\uC9C0? \uB0B4\uAC00 \uD589\uC6B4\uC744
+      \uBE4C\uC5B4\uC904\uAC8C.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_13
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uC790. \uB300\uD559\uAD50\uC5D0 \uAC00\uB294 \uBC29\uBC95, \uC5EC\uCB64\uBD10
+      \uB480\uC5B4. \uC800 \uC717\uB9C8\uC744\uC5D0\uC11C \uBC15\uBB3C\uAD00\uC744
+      \uC9C0\uB098\uC11C \uC11C\uCABD\uC73C\uB85C \uCB49 \uAC00\uBA74 \uAD50\uC678\uB85C
+      \uB098\uAC08 \uC218 \uC788\uB300.\""
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_14
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 1
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uAD50\uC678\uB85C \uB098\uAC00\uBA74, \uC5B8\uB355 \uC704\uC5D0
+      \uB208\uC5D0 \uB744\uAC8C \uD070 \uAC74\uBB3C\uC774 \uC788\uC73C\uB2C8\uAE4C
+      \uAC70\uAE30\uC11C\uBD80\uD134 \uCC3E\uAE30 \uC26C\uC6B8 \uAC70\uB77C\uACE0
+      \uD558\uC168\uC5B4.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4214_15
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uB5A0\uB098\uAE30 \uC804\uC5D0 \uCC9C\uCC9C\uD788, \uCDA9\uBD84\uD788
+      \uC900\uBE44\uD574. \uC544\uC800\uC528\uB77C\uBA74, \uC5BC\uB9C8\uB4E0\uC9C0
+      \uBA38\uBB3C\uB7EC\uB3C4 \uAD1C\uCC2E\uC73C\uB2C8\uAE4C.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4215_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uADF8\uB7EC\uACE0 \uBCF4\uB2C8\uAE4C, \uC790\uAE30\uC18C\uAC1C\uB3C4
+      \uC548 \uD588\uB124. \uB0B4 \uC774\uB984\uC740 \uB9AC\uCF54\uC57C. \uBB50,
+      \uC544\uC800\uC528\uB294 \uC18C\uAC1C\uD560 \uC774\uB984\uB3C4 \uAE30\uC5B5
+      \uC548 \uB098\uACA0\uB2E4\u2026.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4216_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uB300\uD559\uAD50\uC5D0\uC11C \uC0AC\uB78C\uB4E4\uC774 \uC7A1\uD600\uAC04
+      \uAC70 \uB9D0\uC774\uC57C\u2026 \uC9D1\uC5D0 \uBCF4\uB0B4\uB2EC\uB77C\uACE0,
+      \uC0AC\uB78C\uB4E4 \uC8FD\uC774\uC9C0 \uB9D0\uB77C\uACE0 \uC18C\uB9AC\uCE58\uB2E4\uAC00
+      \uADF8\uB7AC\uB300. \uC120\uC0DD\uB2D8\uC774 \uADF8\uB7EC\uC168\uB294\uB370,
+      \uC608\uC804\uC5D0\uB294 \uACBD\uCC30\uB4E4\uD55C\uD14C\uB3C4 \uC790\uC8FC
+      \uC7A1\uD600\uAC14\uB300. \uC9C0\uAE08\uC740 B\uAD6D \uAD70\uC778\uB4E4\uC774
+      \uC7A1\uC544\uAC00. \uC120\uC0DD\uB2D8\u2026 \uC0DD\uAC01\uD558\uBA74 \uB610
+      \uAC71\uC815\uB41C\uB2E4.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4217_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uC6B0\uB9AC\uB098\uB77C \uC0AC\uB78C\uD55C\uD14C \uC7A1\uD600\uAC00\uB294
+      \uAC70\uB791, \uB2E4\uB978 \uB098\uB77C \uC0AC\uB78C\uD55C\uD14C \uC7A1\uD600\uAC00\uB294
+      \uAC70\uB791 \uBB50\uAC00 \uB098\uC744\uC9C0 \uB098\uB294 \uC798 \uBAA8\uB974\uACA0\uC5B4.
+      \uB09C, \uB458 \uB2E4 \uC2EB\uC740\uB370\u2026.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4218_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uBC25\uC740 \uC81C\uB300\uB85C \uBA39\uACE0 \uC788\uB0D0\uACE0?
+      \uC124\uB9C8, \uADF8\uB7F4 \uB9AC\uAC00 \uC5C6\uC796\uC544! \uBC30\uACE0\uD508\uB370\u2026
+      \uC544\uC800\uC528 \uC7A1\uC544\uBA39\uC5B4 \uBC84\uB9B4\uAE4C? \uD5E4\uD5E4,
+      \uD56D\uC0DD\uC81C \uC138 \uAC1C \uC8FC\uBA74 \uC548 \uC7A1\uC544\uBA39\uC9C0.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4219_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uB098\uB3C4 \uB2F9\uC5F0\uD788 \uC8FD\uC744\uAE4C\uBD10 \uBD88\uC548\uD574.
+      \uC120\uC0DD\uB2D8\uB3C4 \uB3D9\uC0DD\uB3C4 \uB098\uB3C4 \uB2E4 \uC548 \uC8FD\uC5C8\uC73C\uBA74
+      \uC88B\uACA0\uC5B4. \uB9E4\uC77C\uB9E4\uC77C \uBB34\uC11C\uC6CC. \uADF8\uB798\uB3C4\u2026
+      \uB09C \uB204\uB098\uB2C8\uAE4C. \uC774\uAC8C \uB0B4 \uC120\uD0DD\uC774\uC57C.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4220_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uAE30\uC5B5\uC744 \uC783\uC73C\uBA74 \uB09C \uC5B4\uB5BB\uAC8C
+      \uD560 \uAC70\uB0D0\uAD6C? \uAE00\uC384\u2026 \uADF8\uB7F0 \uAC70 \uBCC4\uB85C
+      \uACE0\uBBFC\uD558\uB294 \uD0C0\uC785\uC740 \uC544\uB2C8\uB77C\uC11C. \uADF8\uB798\uB3C4
+      \uC55E\uC73C\uB85C \uC529\uC529\uD558\uAC8C \uC798 \uC0B4\uC544\uC57C\uC9C0,
+      \uD558\uC9C0 \uC54A\uC744\uAE4C? \uB098\uB294 \uB098\uB2C8\uAE4C.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4221_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC18C\uB144\uC740 \uCCA0\uC0AC \uC637\uAC78\uC774\uB97C \uAC00\uC9C0\uACE0
+      \uB545\uC5D0 \uADF8\uB9BC\uC744 \uADF8\uB9AC\uACE0 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4222_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC18C\uB144\uC740 \uC544\uBB34 \uB9D0 \uC5C6\uC774, \uBA4D\uD558\uB2C8
+      \uB098\uB97C \uC62C\uB824\uB2E4\uBCF8\uB2E4. \uC778\uAC04\uC758 \uD615\uD0DC\uB85C
+      \uCD94\uC815\uB418\uB294 \uADF8\uB9BC\uC774 \uB2E4\uC218 \uADF8\uB824\uC838
+      \uC788\uB2E4. \uC18C\uB144\uACFC \uB2EC\uB9AC \uADF8\uB9BC\uB4E4\uC740 \uC6C3\uACE0
+      \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4223_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uB0B4\uAC00 \uC18C\uB144\uC5D0\uAC8C \uC904 \uC218 \uC788\uB294 \uBB54\uAC00\uAC00
+      \uC788\uC744\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4224_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uB9D0\uC5C6\uC774, \uAD34\uB85C\uC6C0\uC774 \uBB3B\uC5B4\uB098\uB294
+      \uB208\uBE5B\uC73C\uB85C \uBA40\uCA61\uD55C \uC790\uC2E0\uC758 \uC0AC\uC9C0\uB97C
+      \uB0B4\uB824\uB2E4\uBCF8\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4225_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC218\uC5B4\uB294 \uBAB0\uB77C\uC694.\""
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4225_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: '"......."'
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4225_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uB5A0\uB4E4\uACE0 \uC2F6\uC740 \uB9C8\uC74C\uC774... \uC5B4, \uC5C6\uC5C8\uC744
+      \uBFD0\uC774\uC5D0\uC694.\""
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4225_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uD559\uAD50, \uBB34\uB108\uC838 \uBC84\uB838\uACE0... \uCE5C\uAD6C\uB4E4\uB3C4
+      \uC5C6\uC73C\uB2C8\uAE4C....\""
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4226_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"....\uBABB\uC0DD\uACBC\uC5B4\uC694.\""
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4226_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC18C\uB144\uC740 \uC804\uD600 \uC6C3\uC9C0 \uC54A\uACE0 \uC788\uB2E4......
+      \uC694\uB839 \uC5C6\uB294 \uC5B4\uB978\uC744 \uD55C\uC2EC\uD574\uD558\uB294
+      \uD45C\uC815\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4227_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC5B4? \uD559\uAD50 \uC57C\uC639\uC774\uB2E4.... \uB108, \uBB34\uC0AC\uD588\uAD6C\uB098.
+      \uB2E4\uD589\uC774\uC57C....\""
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4227_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC18C\uB144\uC740 \uACE0\uC591\uC774 \uC6B8\uC74C\uC18C\uB9AC\uB97C
+      \uC11C\uD234\uAC8C \uD749\uB0B4\uB0B4\uBA70 \uACE0\uC591\uC774\uC758 \uD138\uC744
+      \uC4F0\uB2E4\uB4EC\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4228_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uCC45\uC0C1 \uC704, \uB450\uC5B4 \uAD8C\uC758 \uACF5\uCC45\uB4E4\uC774
+      \uC774\uB807\uB2E4 \uD560 \uC9C8\uC11C \uC5C6\uC774 \uB193\uC5EC \uC788\uB2E4\u2026
+      \uC77C\uAE30\uC7A5\uC778 \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4229_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB610\uBC15\uB610\uBC15 \uC815\uAC08\uD55C \uAE00\uC528\uB294 \uC544\uB9C8\uB3C4
+      \uC18C\uB140\uC758 \uAC83, \uD544\uAE30\uCCB4\uB294 \uBCF4\uC721\uC6D0 \uC120\uC0DD\uB2D8\uC758
+      \uAC83\uC73C\uB85C \uCD94\uC815\uB41C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4230_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 11111
+    Scripts: "(X\uC6D4 X\uC77C, \uC18C\uB140\uC758 \uC77C\uAE30.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4230_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 33333
+    Scripts: "(X\uC6D4 XX\uC77C, \uC18C\uB140\uC758 \uC77C\uAE30.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4232_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 22222
+    Scripts: "(XX\uC6D4 X\uC77C, \uC120\uC0DD\uB2D8\uC758 \uC77C\uAE30.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4232_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 44444
+    Scripts: "(X\uC6D4 X\uC77C, \uC120\uC0DD\uB2D8\uC758 \uC77C\uAE30.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4232_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 66666
+    Scripts: "(X\uC6D4 XX\uC77C, \uC120\uC0DD\uB2D8\uC758 \uC77C\uAE30.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4232_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 88888
+    Scripts: "(X\uC6D4 X\uC77C, \uC120\uC0DD\uB2D8\uC758 \uC77C\uAE30.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4232_4
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 1010101010
+    Scripts: "(X\uC6D4 XX\uC77C, \uC120\uC0DD\uB2D8\uC758 \uC77C\uAE30.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4237_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBD80\uC0C1 \uBC0F \uC5FC\uC99D \uC791\uC6A9\uC73C\uB85C \uC758\uC2DD\uC774
+      \uC5C6\uB294 \uC778\uAC04. \uB098\uC774\uB294 \uC80A\uC744 \uD14C\uC9C0\uB9CC,
+      \uBAB0\uACE8\uC774 \uB9C8\uCE58 \uBE44\uBC14\uB78C\uC5D0 \uAEBE\uC778 \uACE0\uBAA9\uB098\uBB34
+      \uAC19\uB2E4. \uACE0\uC544\uC6D0\uC744 \uC6B4\uC601\uD558\uB294 \uC120\uC0DD\uC778
+      \uBAA8\uC591\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4238_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC911\uD0A4\uC758 \uB178\uC778 \uC5EC\uC131. \uCC99\uCD94\uC5D0 \uBB38\uC81C\uAC00
+      \uC788\uB294\uC9C0, \uC790\uC138\uAC00 \uAD6C\uBD80\uC815\uD558\uB2E4. \uC8FC\uB984\uC9C4
+      \uC785\uAC00\uC5D0 \uC6B0\uC218\uAC00 \uC5B4\uB824 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4239_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC911\uD0A4\uC758 \uB178\uC778 \uC5EC\uC131. \uCC99\uCD94\uC5D0 \uBB38\uC81C\uAC00
+      \uC788\uB294\uC9C0, \uC790\uC138\uAC00 \uAD6C\uBD80\uC815\uD558\uB2E4. \uC8FC\uB984\uC9C4
+      \uC785\uAC00\uC5D0 \uC6B0\uC218\uAC00 \uC5B4\uB824 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4239_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uD718\uC720\u2026\u2026 \uC751?\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4239_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uB204\uAC00 \uCC3E\uC544\uC624\uB294 \uAC74 \uC815\uB9D0 \uC624\uB79C\uB9CC\uC774\uAD6C\uBA3C\u2026.
+      \uC606\uC9D1, \uC717\uC9D1, \uB2E4 \uC8FD\uAC70\uB098 \uB5A0\uB098\uAC14\uC5B4.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4241_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC804\uC7C1 \uD130\uC84C\uC744 \uB54C \uC544\uB4E4 \uB0B4\uC678\uB791
+      \uC190\uC8FC\uB4E4\uC774 \uC8FD\uACE0, \uC9C0\uB09C\uB2EC\uC5D0 \uB0A8\uD3B8\uC774
+      \uC8FD\uC5C8\uB2E4\uB124. \uC798 \uC0AC\uB294 \uC800 \uC717\uB9C8\uC744 \uC2DC\uB0B4\uC5D0\uB294
+      \uC758\uB8CC\uC6A9 \uB85C\uBD07\uAE4C\uC9C0 \uC788\uB294 \uB300\uBCD1\uC6D0\uC774
+      \uC788\uB294\uB370, \uADF8\uB7F0 \uB370 \uB370\uB824\uAC14\uC73C\uBA74 \uC0B4\uB9B4
+      \uC218 \uC788\uC5C8\uACA0\uC9C0.\""
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4241_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uD558\uC9C0\uB9CC \uC804\uC7C1 \uC804\uC774\uB098 \uC9C0\uAE08\uC774\uB098,
+      \uC6B0\uB9AC \uAC19\uC740 \uC0AC\uB78C\uB4E4\uC774 \uBB50 \uADF8\uB7F0 \uB370\uC11C
+      \uCE58\uB8CC\uBC1B\uC744 \uC218 \uC788\uACA0\uB098\u2026..\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4241_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uAC00\uC871\uB4E4\uC744 \uB530\uB77C \uC8FD\uACE0 \uC2F6\uB2E4\uB294
+      \uC0DD\uAC01\uC740 \uC548 \uD55C\uB2E4\uB124, \uB299\uC740\uC774\uAC00 \uC6B0\uC2B5\uB2E4\uACE0
+      \uC0DD\uAC01\uD560\uC9C0 \uBAA8\uB974\uACA0\uC9C0\uB9CC \uB09C \uC5EC\uC804\uD788
+      \uC0B4\uACE0 \uC2F6\uC5B4. \uD558\uC9C0\uB9CC \uADF8\uAC8C \uB108\uBB34 \uC5B4\uB824\uC6B4
+      \uC77C\uC774\uC57C. \uADF8\uAC74 \uC9C0\uAE08 \uC5EC\uAE30\uC11C, \uAC00\uC7A5
+      \uAC74\uC7A5\uD55C \uC7A5\uC815\uC5D0\uAC8C\uB3C4 \uC815\uB9D0\uB85C \uC5B4\uB824\uC6B4
+      \uC77C\uC774\uB2C8 \uB9D0\uC774\uC57C\u2026.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4243_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC800\uAE30 \uB0A8\uC11C\uCABD\uC73C\uB85C \uB0B4\uB824\uAC00\uBA74
+      \uBB34\uC778 \uB9C8\uD2B8\uAC00 \uD558\uB098 \uC788\uC5B4. \uC774 \uB3D9\uB124
+      \uC0AC\uB78C\uB4E4\uC740 \uAC70\uAE30\uC11C \uC0DD\uD544\uD488\uC744 \uB2E4
+      \uAD6C\uD558\uACE4 \uD588\uC9C0\u2026. \uBB34\uC778 \uB9C8\uD2B8\uAC00 \uBB50\uB0D0\uB2C8,
+      \uC80A\uC740 \uC0AC\uB78C\uC778\uB370 \uC544\uB294 \uAC8C \uC5C6\uAD6C\uBA3C?\""
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4243_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC544 \uC790\uD310\uAE30\uC5D0 \uB3C8 \uB123\uC73C\uBA74 \uBB3C\uAC74
+      \uB098\uC624\uB294 \uB370\uC9C0 \uBB50\uACA0\uB098. \uADFC\uB370 \uC774\uC81C\uB294
+      \uAC70\uC758 \uBB3C\uAC74\uC774 \uC548 \uB0A8\uC544 \uC788\uC744 \uAC8C\uC57C.
+      \uB9C8\uC744 \uC0AC\uB78C\uB4E4 \uC218\uC911\uC5D0 \uB561\uC804\uB3C4 \uC548
+      \uB0A8\uC544 \uC788\uACE0.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4243_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC5EC\uAE30 \uBD88\uB7C9\uBC30\uB4E4\uC774 \uB9CE\uACE0 \uC0AC\uC7A5
+      \uC778\uC2EC\uB3C4 \uACE0\uC57D\uD574\uC11C, \uC774\uAC8C \uB9C8\uD2B8\uC57C
+      \uAC10\uC625\uC774\uC57C \uC2F6\uAC8C \uC0DD\uACBC\uC5B4. \uB0B4 \uC606\uC9D1\uC5D0
+      \uAD00\uB9AC\uC778\uC774 \uC0B4\uC558\uC5C8\uB294\uB370 \uC804\uC7C1 \uD130\uC84C\uB2E8
+      \uC18C\uC2DD \uB4E3\uC790\uB9C8\uC790 \uC9C0 \uACE0\uD5A5\uC73C\uB85C \uCC28
+      \uD0C0\uACE0 \uAC14\uB2E4\uB124. \uC798 \uB3C4\uB9DD\uAC14\uC9C0, \uC544\uC554.
+      \uC0B4\uC544\uC57C\uC9C0.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4244_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uB09A\uC2EF\uB300\uB97C \uBE4C\uB9AC\uB824\uACE0\u2026? \uC5B4\uB514\uB2E4
+      \uC4F0\uB824\uC6B0?"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4244_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\uBCF4\uC790\u2026 \uBE68\uB7AB\uC904 \uC548 \uC4F0\uB294 \uAC70 \uD558\uB098
+      \uC788\uC73C\uB2C8\uAE4C \uADF8\uAC70\uB77C\uB3C4 \uAC00\uC838\uAC00\uAC8C\uB098.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4247_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uB178\uC778\uC740 \uBE48 \uC220\uBCD1\uC744 \uB4E4\uC5C8\uB2E4 \uB193\uAC70\uB2C8
+      \uD558\uBA70 \uC9D1\uC548\uC744 \uBC30\uD68C\uD55C\uB2E4. \uBB34\uC2A8 \uC0DD\uAC01\uC744
+      \uD558\uB294\uC9C0, \uAE4A\uC740 \uC8FC\uB984\uC5D0 \uAC00\uB824 \uC54C \uC218
+      \uC5C6\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4248_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC800\uAE30 \uB0A8\uC11C\uCABD\uC73C\uB85C \uB0B4\uB824\uAC00\uBA74
+      \uBB34\uC778 \uB9C8\uD2B8\uAC00 \uD558\uB098 \uC788\uC5B4. \uC774 \uB3D9\uB124
+      \uC0AC\uB78C\uB4E4\uC740 \uAC70\uAE30\uC11C \uC0DD\uD544\uD488\uC744 \uB2E4
+      \uAD6C\uD558\uACE4 \uD588\uC9C0\u2026. \uBB34\uC778 \uB9C8\uD2B8\uAC00 \uBB50\uB0D0\uB2C8,
+      \uC80A\uC740 \uC0AC\uB78C\uC778\uB370 \uC544\uB294 \uAC8C \uC5C6\uAD6C\uBA3C?\""
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4248_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC544 \uC790\uD310\uAE30\uC5D0 \uB3C8 \uB123\uC73C\uBA74 \uBB3C\uAC74
+      \uB098\uC624\uB294 \uB370\uC9C0 \uBB50\uACA0\uB098. \uADFC\uB370 \uC774\uC81C\uB294
+      \uAC70\uC758 \uBB3C\uAC74\uC774 \uC548 \uB0A8\uC544 \uC788\uC744 \uAC8C\uC57C.
+      \uB9C8\uC744 \uC0AC\uB78C\uB4E4 \uC218\uC911\uC5D0 \uB561\uC804\uB3C4 \uC548
+      \uB0A8\uC544 \uC788\uACE0.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4248_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC5EC\uAE30 \uBD88\uB7C9\uBC30\uB4E4\uC774 \uB9CE\uACE0 \uC0AC\uC7A5
+      \uC778\uC2EC\uB3C4 \uACE0\uC57D\uD574\uC11C, \uC774\uAC8C \uB9C8\uD2B8\uC57C
+      \uAC10\uC625\uC774\uC57C \uC2F6\uAC8C \uC0DD\uACBC\uC5B4. \uB0B4 \uC606\uC9D1\uC5D0
+      \uAD00\uB9AC\uC778\uC774 \uC0B4\uC558\uC5C8\uB294\uB370 \uC804\uC7C1 \uD130\uC84C\uB2E8
+      \uC18C\uC2DD \uB4E3\uC790\uB9C8\uC790 \uC9C0 \uACE0\uD5A5\uC73C\uB85C \uCC28
+      \uD0C0\uACE0 \uAC14\uB2E4\uB124. \uC798 \uB3C4\uB9DD\uAC14\uC9C0, \uC544\uC554.
+      \uC0B4\uC544\uC57C\uC9C0.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4250_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uC544\uB2C8? \uBAA8\uB974\uB294\uB370. \uB098\uD558\uACE0 \uC54C\uB358
+      \uC0AC\uC774\uC778\uAC00....?\""
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4250_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uD5C8\uC5B4.... \uAE30\uC5B5\uC774 \uC5C6\uB2E4\uB77C.\""
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4250_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uBB50, \uADF8\uB7F4 \uC218\uB3C4 \uC788\uB294 \uC77C \uC544\uB2C8\uACA0\uC218.
+      \uC694\uC998 \uC138\uC0C1\uC5D0 \uAE61\uADF8\uB9AC \uC78A\uACE0 \uC2F6\uC740
+      \uAC8C \uC5B4\uB514 \uD55C\uB458\uC778\uAC10.\""
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4250_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\"\uADF8\uB798\uB3C4 \uC80A\uC740\uC774, \uD76C\uB9DD\uC744 \uBC84\uB9AC\uC9C0
+      \uB9D0\uAC8C. \uC790\uB128 \uC80A\uC796\uC544!\""
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4254_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC624\uD1A0\uBC14\uC774 \uC704\uC5D0 \uC62C\uB77C\uD0C4 \uAC74\uC7A5\uD55C
+      \uCCAD\uB144. \uBA40\uB9AC\uC11C \uBCF4\uBA74 \uC704\uD48D\uB2F9\uB2F9\uD558\uC9C0\uB9CC
+      \uAC00\uAE4C\uC774\uC11C \uBCF4\uBA74 \uC624\uD1A0\uBC14\uC774\uB3C4, \uC0AC\uB78C\uB3C4
+      \uC0C1\uCC98\uD22C\uC131\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4255_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC624\uD1A0\uBC14\uC774 \uC704\uC5D0 \uC62C\uB77C\uD0C4 \uAC74\uC7A5\uD55C
+      \uCCAD\uB144. \uBA40\uB9AC\uC11C \uBCF4\uBA74 \uC704\uD48D\uB2F9\uB2F9\uD558\uC9C0\uB9CC
+      \uAC00\uAE4C\uC774\uC11C \uBCF4\uBA74 \uC624\uD1A0\uBC14\uC774\uB3C4, \uC0AC\uB78C\uB3C4
+      \uC0C1\uCC98\uD22C\uC131\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4255_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uBB50\uC57C? \uC800\uB9AC \uAEBC\uC838.\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4256_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uBB50\uC57C~? \uC544\uB2C8 \uC7A0\uAE50, \uBABB \uBCF4\uB358
+      \uC5BC\uAD74\uC774\uAD70. \uB124\uB188\uC740 \uBB50\uC57C? \uC5EC\uAE30\uC11C
+      \uC0AC\uB78C \uC5C6\uC5B4\uC9C0\uB294 \uAC74 \uC27D\uC9C0\uB9CC \uC0DD\uAE30\uB294
+      \uAC74 \uC5B4\uB824\uC6B4\uB370. \uD3D0\uD5C8\uC5D0\uC11C \uB098\uC628 \uC0DD\uC874\uC790\uC778\uAC00?\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4257_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uD3D0\uD5C8\uAC00 \uBB50\uB0D0\uACE0? \uB124 \uB208\uC5D0\uB294
+      \uC800\uAC8C \uBB58\uB85C \uBCF4\uC774\uB0D0?\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4257_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC800\uAE30\uB294 \uC6D0\uB798 \uB204\uAC00 \uB354 \uB192\uAC8C
+      \uC9D3\uB098 \uACA8\uB8E8\uB4EF\uC774 \uC19F\uC740 \uC544\uD30C\uD2B8 \uB2E8\uC9C0\uC600\uB294\uB370,
+      \uC804\uC7C1\uD1B5\uC5D0 \uC9C0\uBC18\uBD80\uD130 \uD3ED\uC0AD \uB2E4 \uBB34\uB108\uC838\uC11C
+      \uAE38\uC774 \uD2C0\uC5B4\uB9C9\uD614\uC5B4. \uACE0\uC591\uC774 \uC0C8\uB07C\uB098
+      \uAC00\uB054 \uB4E4\uB77D\uAC70\uB9AC\uC9C0.\""
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4257_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uB355\uBD84\uC5D0 \uC774 \uB3D9\uB124\uC5D0 \uD3C9\uC0DD \uC548
+      \uB4E4\uB358 \uD587\uBE5B\uC774 \uB4E4\uAC8C \uB410\uC9C0\uB9CC, \uD750\uD750.
+      \uC774\uC81C \uADF8\uAC8C \uB2E4 \uBB34\uC2A8 \uC18C\uC6A9\uC774\uC57C.\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4260_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC0AC\uB78C\uB4E4\uC774 \uC65C \uC5C6\uC5B4\uC9C0\uB0D0\uACE0?
+      \uB124\uB188 B\uAD6D\uB188\uC774\uB0D0? \uC544\uB2C8, B\uAD6D\uB188\uB3C4 \uC54C\uACA0\uC9C0,
+      \uC790\uAE30\uB124\uB4E4 \uC9D3\uC774\uB2C8\uAE4C. \uD3EC\uB85C \uC2E0\uC138\uB098
+      \uB2E4\uB984\uC5C6\uB294 \uC6B0\uB9AC\uB97C \uB9C8\uC74C\uB300\uB85C \uC8FD\uC774\uACE0
+      \uB04C\uACE0 \uAC00, \uC800 \uC721\uC2DC\uB97C \uD560 \uB188\uB4E4\uC774! \uB098\uB294
+      \uC548 \uB2F9\uD560 \uAC70\uC57C, XX! \uC2F8\uC6B0\uB2E4 \uB4A4\uC9C8 \uD14C\uB2E4.\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4260_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC9C0\uAE08\uC740 \uD711\uD558\uC9C0\uB9CC \uC655\uB144\uC5D0\uB294
+      \uC5EC\uAE30\uAC00 \uAC31\uB2E8\uB4E4 \uCC9C\uC9C0\uC600\uB2E4. \uC6B0\uB9AC
+      \u2018\uAC00\uC871\u2019\uB4E4\uB3C4 \uAD70\uC778\uB4E4\uC744 \uC0C1\uB300\uB85C
+      \uB9C8\uC9C0\uB9C9\uAE4C\uC9C0 \uC2F8\uC6E0\uC9C0. \uC820\uC7A5, \uC6B0\uB9AC
+      \uB204\uB2D8, \uD615\uB4E4, \uBCF4\uACE0 \uC2F6\uC18C.\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4262_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBB38\uC740 \uB2E8\uB2E8\uD788 \uC7A0\uACA8 \uC788\uB2E4. \uB108\uBA38\uB85C\uBD80\uD130
+      \uC5B4\uB5A4 \uC778\uAE30\uCC99\uB3C4 \uB098\uC9C0 \uC54A\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4263_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBB38\uC740 \uB2E8\uB2E8\uD788 \uC7A0\uACA8 \uC788\uB2E4. \uB108\uBA38\uB85C\uBD80\uD130
+      \uC5B4\uB5A4 \uC778\uAE30\uCC99\uB3C4 \uB098\uC9C0 \uC54A\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4263_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uD558\uC218\uAD6C\uC5D0\uC11C \uC8FC\uC6B4 \uC5F4\uC1E0\uB85C \uBB38\uC744
+      \uC5F4\uC5C8\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4266_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uD558\uC218\uAD6C. \uC624\uC5FC\uB41C \uBB3C\uC744 \uD758\uB824\uBCF4\uB0B4\uB294
+      \uC2DC\uC124\uC774\uB2E4. \uACE0\uC57D\uD55C \uC545\uCDE8\uAC00 \uB09C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4267_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uD558\uC218\uAD6C. \uC624\uC5FC\uB41C \uBB3C\uC744 \uD758\uB824\uBCF4\uB0B4\uB294
+      \uC2DC\uC124\uC774\uB2E4. \uACE0\uC57D\uD55C \uC545\uCDE8\uAC00 \uB09C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4268_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC544\uB798\uC5D0 \uBB54\uAC00 \uBC18\uC9DD\uC774\uB294 \uAE08\uC18D\uC131\uC758
+      \uBB3C\uAC74\uC774 \uC788\uB2E4. \uC5F4\uC1E0. \uB09A\uC2EF\uB300\uB85C \uAEBC\uB0BC
+      \uC218 \uC788\uC744 \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4269_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uD488\uC18D\uC5D0\uC11C \uBB34\uC5B8\uAC00 \uC4F8\uB9CC\uD55C \uBB3C\uAC74\uC774
+      \uC788\uB294\uC9C0 \uC0B4\uD3B4\uBCF8\uB2E4)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4271_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uCE74\uB4DC\uD0A4 \uC778\uC2DD\uC7A5\uCE58. \uAD00\uB9AC\uC790 \uAD8C\uD55C\uC744
+      \uD65C\uC131\uD654\uD558\uAE30 \uC704\uD574\uC11C\uB294 \uCE74\uB4DC\uAC00
+      \uD544\uC694\uD55C \uB4EF\uD558\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4272_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC091 - \uC778\uC99D\uB418\uC5C8\uC2B5\uB2C8\uB2E4.\u201D"
+    Speaker: 32109
+    TypingSpeed: 0.015
+  - TargetDialogId: 4273_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC790\uB3D9\uD310\uB9E4\uC7A5\uCE58. \uC720\uC9C0\uBCF4\uC218\uAC00
+      \uC81C\uB300\uB85C \uB418\uACE0 \uC788\uC9C0 \uC54A\uC740 \uB4EF\uD55C \uAE30\uACC4\uB2E4.
+      \uAC00\uAE4C\uC2A4\uB85C \uC804\uB825\uC774 \uB0A8\uC544 \uC788\uC9C0\uB9CC
+      \uACE7 \uBC30\uD130\uB9AC\uAC00 \uB2E4\uD560 \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4274_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC131\uC778 \uC778\uC99D\uC774 \uD544\uC694\uD569\uB2C8\uB2E4.
+      \uC0AC\uC6A9\uC790\uC758 \uC5BC\uAD74\uC744 \uC778\uC2DD\uD569\uB2C8\uB2E4.\u201D"
+    Speaker: 32108
+    TypingSpeed: 0.015
+  - TargetDialogId: 4274_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC790\uB3D9\uD310\uB9E4\uC7A5\uCE58\uC758 \uD654\uBA74\uC774 \uC9C0\uC9C1\uAC70\uB9AC\uBA70
+      \uCE74\uBA54\uB77C\uB85C \uC804\uD658\uB41C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4274_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\u2026. Error \uBC1C\uC0DD. \uC778\uC2DD \uBD88\uAC00. \uC131\uC778
+      \uC5EC\uBD80 \uBBF8\uD655\uC778.\u201D"
+    Speaker: 32108
+    TypingSpeed: 0.015
+  - TargetDialogId: 4277_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC7AC\uACE0\uAC00 \uC788\uB294\uC9C0\uB294 \uD45C\uC2DC\uB418\uC9C0
+      \uC54A\uB294\uB2E4\u2026. \uB450 \uAC1C\uC758 \uBC84\uD2BC\uC774 \uC9C0\uC9C1\uAC70\uB9AC\uBA70
+      \uD654\uBA74\uC5D0 \uB5A0\uC624\uB978\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4278_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC0C1\uD488 \uC88C\uD45C\uC5D0 \uB9DE\uB294 \uC62C\uBC14\uB978
+      \uC778\uC2DD\uC7A5\uCE58\uC5D0 \uAD00\uB9AC\uC790\uC6A9 \uCE74\uB4DC\uD0A4\uB97C
+      \uC778\uC2DD\uC2DC\uD0A8 \uB4A4 \uB2E4\uC2DC \uC2DC\uB3C4\uD574 \uC8FC\uC138\uC694.
+      \uBAA8\uB4E0 \uC778\uC2DD \uC7A5\uCE58\uAC00 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4.\u201D"
+    Speaker: 32108
+    TypingSpeed: 0.015
+  - TargetDialogId: 4279_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uAD00\uB9AC\uC790 \uBAA8\uB4DC \uD655\uC778. \uD56D\uC0DD\uC81C
+      \uC0C1\uD488 \uC870\uD68C. \uC7AC\uACE0 1 \uAC1C. \uC0C1\uD488\uC744 \uAEBC\uB0C5\uB2C8\uB2E4.\u201D"
+    Speaker: 32108
+    TypingSpeed: 0.015
+  - TargetDialogId: 4280_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uD604\uAE08, \uCE74\uB4DC \uD639\uC740 \uACB0\uC81C\uC6A9 QR
+      \uCF54\uB4DC\uB97C \uC778\uC2DD\uC2DC\uCF1C \uC8FC\uC138\uC694.\u201D"
+    Speaker: 32108
+    TypingSpeed: 0.015
+  - TargetDialogId: 4281_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uACB0\uC81C\uC6A9 \uCE74\uB4DC\uAC00 \uC544\uB2D9\uB2C8\uB2E4\u2026.
+      \uC720\uD6A8\uC2DC\uAC04 \uACBD\uACFC. \uC2DC\uC791\uD654\uBA74\uC73C\uB85C
+      \uB3CC\uC544\uAC11\uB2C8\uB2E4.\u201D"
+    Speaker: 32108
+    TypingSpeed: 0.015
+  - TargetDialogId: 4293_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uCE74\uB4DC\uD0A4 \uC778\uC2DD\uC7A5\uCE58. \uAD00\uB9AC\uC790 \uAD8C\uD55C\uC744
+      \uD65C\uC131\uD654\uD558\uAE30 \uC704\uD574\uC11C\uB294 \uCE74\uB4DC\uAC00
+      \uD544\uC694\uD55C \uB4EF\uD558\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4297_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uAD00\uB9AC\uC790 \uAD8C\uD55C\uC744 \uD655\uC778\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4....\""
+    Speaker: 32108
+    TypingSpeed: 0.015
+  - TargetDialogId: 4298_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC790\uB3D9\uD310\uB9E4\uC7A5\uCE58\uC758 \uB0A8\uC740 \uBC30\uD130\uB9AC\uAC00
+      \uC5C6\uB294 \uAC83 \uAC19\uB2E4....)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4299_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB370\uC774\uD130 \uC11C\uBC84. \uD30C\uAD34\uB41C \uC2E0\uBB38\uC0AC\uC5D0\uC11C
+      \uC4F0\uB358 \uBB3C\uAC74\uC778 \uB4EF\uD558\uB2E4. \uC548\uD0C0\uAE5D\uC9C0\uB9CC
+      \uB0B4\uC6A9\uC740 \uAE68\uB057\uD558\uAC8C \uD3EC\uB9F7\uB418\uC5B4 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4299_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC9C0\uAE08\uAE4C\uC9C0 \uC54C\uAC8C \uB41C \uAC83\uB4E4\uC744 \uAE30\uB85D\uC73C\uB85C
+      \uB0A8\uACA8\uB458\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4300_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB098\uC758 \uAE30\uB85D\uC744 \uC800\uC7A5\uD588\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4301_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uC6B0\uB9AC\uC758 \uC774\uC6C3\uB4E4, \uAE30\uC5B5\uD558\uB9AC\uB77C.\""
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4301_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uADF8\uAC83\uC740 \uC57C-\uC639, \uBD88\uB7EC\uBD10\uB3C4 \uB300\uB2F5\uC774
+      \uC5C6\uB2E4\uB294 \uC758\uBBF8\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4302_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uC6B0\uB9AC\uC758 \uC774\uC6C3\uB4E4, \uAE30\uC5B5\uD558\uB9AC\uB77C.\""
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4302_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(...\uB77C\uB294 \uAE00\uC528\uAC00 \uC801\uD78C \uD45C\uC9C0\uD310\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4302_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB9C8\uC744 \uC544\uC774\uB4E4\uC740 \uB9E4\uC77C \uB6F0\uB180\uB358
+      \uACF5\uD130\uC5D0 \uB204\uC6CC, \uB108\uBB34 \uC774\uB974\uAC8C \uACE0\uC694\uD55C
+      \uC7A0\uC5D0 \uB4E4\uC5C8\uB2E4. \uAC00\uC871\uACFC \uD568\uAED8 \uB610\uB294
+      \uB530\uB85C, \uD770 \uD651\uC774\uBD88 \uC544\uB798.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4303_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uC2DC\uB0B4 \uAC00\uB294 \uAE38, \uC8FC\uC720\uC18C \uC788\uC74C.\""
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4304_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC6C0\uC9C1\uC784\uC774 \uC788\uB294 \uD658\uC790\uB294 \uC774 \uC0AC\uB78C\uBC16\uC5D0
+      \uC5C6\uB294 \uAC83 \uAC19\uB2E4. \uAD34\uB85C\uC6CC\uD558\uB294 \uC228\uC18C\uB9AC\uAC00
+      \uB4E4\uB824\uC628\uB2E4. \uAEBC\uC838\uAC00\uACE0 \uC788\uC9C0\uB9CC, \uBA85\uBC31\uD55C
+      \uC0DD\uBA85\uC758 \uC9D5\uD6C4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4305_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uC138\uC0C1\uC5D0....... \uACE0\uC591\uC774\uAC00 \uC57D\uC744 \uBB3C\uACE0
+      \uC624\uB2E4\uB2C8, \uB9C8\uCE58 \uB3D9\uD654 \uAC19\uB124. \uB098, \uAFC8\uC744
+      \uAFB8\uB294 \uAC74\uAC00....\""
+    Speaker: 32127
+    TypingSpeed: 0.015
+  - TargetDialogId: 4305_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uC598, \uC57C\uC639\uC544. \uD639\uC2DC\uB77C\uB3C4, \uC5B4\uBA38\uB2C8\uAC00
+      \uB108\uB97C \uBCF4\uB0B4\uC2E0 \uAC78\uAE4C? \uC9C0\uAE08\uC740 \uADF8\uB807\uAC8C
+      \uBBFF\uC5B4\uBCF4\uACE0 \uC2F6\uAD6C\uB098. \uB298 \uC0B6\uC774 \uC8FC\uB294
+      \uAE30\uD68C\uAC00 \uC5BC\uB9C8\uB098 \uBB34\uAD81\uBB34\uC9C4\uD55C\uC9C0,
+      \uC138\uC0C1\uC774 \uC5BC\uB9C8\uB098 \uB113\uC740\uC9C0 \uC598\uAE30\uD574\uC8FC\uC168\uB358
+      \uC6B0\uB9AC \uC5C4\uB9C8.\""
+    Speaker: 32127
+    TypingSpeed: 0.015
+  - TargetDialogId: 4305_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uB2E4\uC2DC \uD55C \uBC88 \uBD59\uACE0 \uC2F6\uC740\uB370, \uBC14\uAE65\uC774
+      \uC5B4\uB5BB\uAC8C \uB418\uC5C8\uC744\uC9C0 \uB450\uB824\uC6CC. \uC5B4\uBA38\uB2C8\uB3C4
+      \uC758\uC0AC \uC120\uC0DD\uB2D8\uB4E4\uB3C4, \uBA70\uCE60 \uC804\uBD80\uD130
+      \uC804\uD600 \uC624\uC9C0 \uC54A\uC73C\uC2DC\uB2C8\uAE4C \uB9D0\uC774\uC57C....
+      \uC544\uC544, \uB124\uAC00 \uC624\uAE30 \uC804\uAE4C\uC9C0 \uB0B4 \uACC1\uC5D0
+      \uC788\uB294 \uAC74 \uC228\uC774 \uB9C9\uD790 \uB4EF\uD55C \uC801\uB9C9\uACFC
+      \uB204\uAD70\uAC00 \uC815\uB9D0\uB85C \uC228\uC774 \uB9C9\uD600\uAC00\uB294
+      \uC18C\uB9AC\uBFD0\uC774\uC5C8\uB2E8\uB2E4.\""
+    Speaker: 32127
+    TypingSpeed: 0.015
+  - TargetDialogId: 4305_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uC9C0\uAE08 \uB09C \uC190\uAC00\uB77D \uD558\uB098 \uAE4C\uB531\uD560
+      \uC218 \uC5C6\uB294\uB370... \uB124 \uADF8 \uC870\uADF8\uB9CC \uBC1C\uB85C
+      \uC57D\uC744 \uB193\uC544\uC904 \uC218 \uC788\uC744 \uB9AC \uC5C6\uACA0\uC9C0.
+      \uCC28\uB77C\uB9AC \uBB3C\uACE0 \uAC00. \uC5B4\uB518\uAC00\uB85C \uBA40\uB9AC\uBA40\uB9AC
+      \uAC00\uC11C \uB2E4\uB978 \uC544\uD508 \uC0AC\uB78C\uC5D0\uAC8C \uAC74\uB124\uC8FC\uB834.\""
+    Speaker: 32127
+    TypingSpeed: 0.015
+  - TargetDialogId: 4305_4
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uB098\uB97C \uC6C3\uAC8C \uD574\uC918\uC11C \uACE0\uB9C8\uC6CC.
+      \uB098\uB294 \uBA38\uC9C0\uC54A\uC544... \uAE4A\uC774 \uC7A0\uB4E4\uC5B4\uBC84\uB9B4
+      \uAC70\uC57C....... \uADF8\uB9AC\uACE0 \uB2E4\uC2DC \uB208\uC744 \uB728\uBA74....
+      \uB113\uACE0... \uC0C8\uB85C\uC6B4 \uC138\uC0C1\uC774.... \uC788\uC5C8\uC73C\uBA74
+      \uC88B\uACA0\uAD6C\uB098.\""
+    Speaker: 32127
+    TypingSpeed: 0.015
+  - TargetDialogId: 4306_0
+    Npc1: 33102
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBCD1\uC6D0\uC758 \uCC28\uD2B8\uC640 \uC11C\uB958\uB97C \uBCF4\uAD00\uD558\uB294
+      \uC120\uBC18\uC774\uB2E4. \uAE30\uB85D\uC774 \uBA70\uCE60 \uC804\uC5D0 \uB04A\uACA8
+      \uC788\uB2E4. \uAC00\uC7A5 \uCD5C\uADFC\uC758 \uC11C\uB958\uB294.... \uC804
+      \uC758\uB8CC\uC9C4\uC744 \uB300\uC0C1\uC73C\uB85C \uD558\uB294 \uC804\uC2DC\uC0C1\uD669
+      \uB9E4\uB274\uC5BC \uAD50\uC721 \uC548\uB0B4. \uADF8 \uD6C4\uB85C \uB204\uAD6C\uB3C4
+      \uB3CC\uC544\uC624\uC9C0 \uC54A\uC740 \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4307_0
+    Npc1: 33103
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBCD1\uC6D0\uC758 \uC758\uB8CC\uAE30\uAD6C\uB97C \uBCF4\uAD00\uD558\uB294
+      \uC120\uBC18\uC774\uB2E4. \uC804\uBB38\uAC00\uC5D0 \uC758\uD55C \uAD00\uB9AC\uAC00
+      \uD544\uC694\uD558\uC9C0\uB9CC, \uADF8\uB7F4 \uC218 \uC788\uB294 \uC804\uBB38\uAC00\uAC00
+      \uC8FC\uC704\uC5D0 \uBCF4\uC774\uC9C0 \uC54A\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4308_0
+    Npc1: 33104
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBCD1\uC6D0\uC758 \uC57D\uC744 \uBCF4\uAD00\uD558\uB294 \uC120\uBC18\uC774\uB2E4.
+      \uB9E8 \uC717\uCE78 \uAD6C\uC11D\uC5D0 \uB0A8\uC544 \uC788\uB358 \uD56D\uC0DD\uC81C
+      \uD55C \uACFD\uC744 \uBC1C\uACAC\uD588\uB2E4...! \uACE0\uC591\uC774 \uBC1C\uB85C
+      \uC870\uC2EC\uD788 \uBC00\uC5B4 \uB5A8\uC5B4\uB728\uB838\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4309_0
+    Npc1: 33104
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBCD1\uC6D0\uC758 \uC57D\uC744 \uBCF4\uAD00\uD558\uB294 \uC120\uBC18\uC774\uB2E4.
+      \uACF5\uAE09\uC774 \uB04A\uC5B4\uC9C4 \uC9C0 \uC624\uB798\uB418\uC5B4 \uAC70\uC758
+      \uD145\uD145 \uBE44\uC5B4 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4310_0
+    Npc1: 33105
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: 3310501
+    Scripts: "(\uBC14\uB2E5\uC5D0 \uB5A8\uC5B4\uC9C4 \uCABD\uC9C0\uAC00 \uB208\uAE38\uC744
+      \uB04C\uC5C8\uB2E4. \uB204\uAD70\uAC00\uC758 \uAC04\uC808\uD55C \uB9C8\uC74C\uC774
+      \uB2F4\uAE34, \uC5EC\uB7EC \uCC28\uB840 \uACE0\uCCD0 \uC4F4 \uB4EF\uD55C \uC5B4\uB5A4
+      \uAE00\uC758 \uCD08\uC548\uC774\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4311_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uD615\uD0DC\uB97C \uBCF4\uBA74, \uC774\uAC83\uB3C4 \uB370\uC774\uD130
+      \uC11C\uBC84\uC77C \uAC83\uC774\uB2E4. \uAE30\uC5B5\uC744 \uC783\uACE0 \uAE68\uC5B4\uB09C
+      \uC9C0 \uC5BC\uB9C8 \uB418\uC9C0 \uC54A\uC558\uB294\uB370, \uBC8C\uC368 \uC775\uC219\uD568\uC774\uB77C\uB294
+      \uAC8C \uC0DD\uAE30\uACE0 \uC788\uB294 \uAC74\uAC00....)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4311_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC9C0\uAE08\uAE4C\uC9C0 \uACBD\uD5D8\uD55C \uC77C\uB4E4\uC744 \uAE30\uB85D\uC73C\uB85C
+      \uB0A8\uACA8\uB458\uAE4C? \uC5B8\uC81C \uB2E4\uC2DC \uBB34\uC5B8\uAC00\uB97C
+      \uC78A\uAC8C \uB420\uC9C0\uB3C4 \uBAA8\uB974\uB2C8\uAE4C....)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4312_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB098\uC758 \uAE30\uB85D\uC744 \uC800\uC7A5\uD588\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 1003_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC18C\uB144\uC740 \uB0B4\uAC00 \uB0B4\uBBFC \uBE48 \uC190\uC744 \uBB3C\uB044\uB7EC\uBBF8
+      \uBCF4\uB2E4\uAC00 \uACE0\uAC1C\uB97C \uB3CC\uB838\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 1004_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uB098\uB294 \uC18C\uB144\uC5D0\uAC8C \uC0AC\uD0D5\uC744 \uB0B4\uBC00\uC5C8\uB2E4.
+      \uD55C\uCC38 \uB098\uB97C \uBC14\uB77C\uBCF4\uB358 \uC18C\uB144\uC740 \uC190\uC5D0\uC11C
+      \uD798\uC5C6\uC774 \uC637\uAC78\uC774\uB97C \uB0B4\uB824\uB193\uACE0 \uB0B4
+      \uCABD\uC73C\uB85C \uBC00\uC5B4\uC900\uB2E4. \uBCF4\uB2F5\uC77C\uAE4C...?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 1005_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC637\uAC78\uC774\uC5D0 \uB048\uC744 \uBB36\uC5B4 \uAC04\uC774 \uB09A\uC2EF\uB300\uB97C
+      \uB9CC\uB4E4\uACE0, \uD558\uC218\uAD6C \uAE4A\uC219\uC774 \uAE09\uC870\uD55C
+      \uB09A\uC2EF\uB300\uB97C \uB4DC\uB9AC\uC6B4\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 1005_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB204\uAD70\uAC00\uC758 \uC9D1\uC5F4\uC1E0\uB97C \uAEBC\uB0C8\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 1006_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC8FC\uBCC0\uC5D0\uC11C \uC4F8\uB9CC\uD55C \uBB3C\uAC74\uC774 \uC788\uB294\uC9C0
+      \uB354 \uCC3E\uC544\uBCF4\uACE0 \uC624\uC790.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4315_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC0B0\uC0B0\uC774 \uBD80\uC11C\uC9C4 \uC811\uC2DC\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4315_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC5B4\uB290 \uC870\uC2EC\uC131 \uC5C6\uB294 \uC544\uC774\uAC00 \uAC00\uC9C0\uACE0
+      \uB180\uB2E4\uAC00 \uAE68\uD2B8\uB9AC\uAE30\uB77C\uB3C4 \uD55C \uAC78\uAE4C.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4316_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBE44\uCA4D \uB9D0\uB77C\uBD99\uC740 \uB098\uBB34\uB2E4. )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4316_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC0B0\uAE38\uC744 \uC9C0\uB098\uC624\uBA70 \uBCF8 \uAC83\uACFC \uC870\uAE08
+      \uB2E4\uB978 \uC885\uB958\uC778 \uB4EF\uD558\uB2E4. \uC870\uACBD\uC744 \uC704\uD574
+      \uC2EC\uC5C8\uB358 \uAC78\uC9C0\uB3C4 \uBAA8\uB974\uC9C0\uB9CC, \uC9C0\uAE08\uC740
+      \uC0AC\uB78C\uC758 \uC190\uAE38\uC774 \uB04A\uACBC\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4317_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC758\uC790\uAC00 2\uAC1C \uBC30\uCE58\uB418\uC5B4\uC788\uB2E4. \uAC00\uAD6C\uC6D0\uC740
+      2\uBA85\uC778 \uAC83 \uAC19\uB2E4. )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4318_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uCE68\uB300 \uB450 \uCC44\uAC00 \uB098\uB780\uD788 \uC788\uB2E4.
+      )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4318_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBD80\uBD80\uAC00 \uC0AC\uB294 \uC9D1\uC778 \uAC83 \uAC19\uB2E4.
+      )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4319_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uD48D\uC694\uB86D\uAC8C \uC5F4\uB9E4\uAC00 \uC601\uADFC \uACFC\uC218\uC6D0\uC744
+      \uBC30\uACBD\uC73C\uB85C \uBD80\uBD80\uC640 \uC544\uC774\uAC00 \uAC19\uC774
+      \uCC0D\uC740 \uC0AC\uC9C4\uC774\uB2E4. )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4319_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBE5B \uBC14\uB798\uACE0 \uD574\uC5B4\uC9C4 \uC815\uB3C4\uB97C \uBCF4\uB2C8
+      \uAF64\uB098 \uC624\uB798 \uC804\uC5D0 \uCC0D\uC740 \uC0AC\uC9C4 \uAC19\uB2E4.
+      )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4320_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB9E4\uD2B8\uB9AD\uC2A4\uAC00 \uAE54\uB824\uC788\uB2E4. \uB9E4\uD2B8\uB9AD\uC2A4
+      \uD558\uB098\uB294 \uBE44\uB6A4\uC5B4\uC838\uC788\uB294 \uAC8C \uC544\uBB34\uB798\uB3C4
+      \uB204\uAD70\uAC00\uC758 \uC7A0\uBC84\uB987\uC774 \uACE0\uC57D\uD55C \uAC83
+      \uAC19\uB2E4. )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4320_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC7A0\uC790\uB9AC\uB97C \uBC1F\uACE0 \uC9C0\uB098\uAC08 \uC21C \uC5C6\uC9C0.
+      \uC774 \uB108\uBA38\uB85C\uB294 \uB4E4\uC5B4\uAC00\uC9C0 \uB9D0\uC790. )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4321_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB0C9\uC7A5\uACE0\uC758 \uC804\uC6D0\uC774 \uAEBC\uC9C4 \uCC44, \uBB38\uC774
+      \uD798\uC5C6\uC774 \uC5F4\uB824 \uC788\uB2E4. )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4321_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC548\uC740 \uD145\uD145 \uBE44\uC5B4\uC788\uB2E4. \uC544\uC774\uB4E4\uC774
+      \uBA39\uC744 \uC2DD\uB7C9\uC740 \uB0A8\uC544 \uC788\uB294 \uAC78\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4322_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB2E8\uB2E8\uD788 \uC7A0\uAE34 \uCC3D\uBB38\uC774\uB2E4. )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4322_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC548\uC744 \uB4E4\uC5EC\uB2E4\uBCFC \uBC29\uBC95\uC774 \uC5C6\uC744\uAE4C\u2026?
+      )"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4325_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC548\uB155."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4325_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC774\uB807\uAC8C \uB9D0\uD558\uAE30\uB3C4 \uCC38 \uC0C8\uC0BC\uC2A4\uB7FD\uB124\u2026."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4325_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC774 \uB9C8\uC744\uC5D0\uC11C \uB124\uAC00 \uD574\uB0B8 \uC77C, \uC798
+      \uC9C0\uCF1C\uBD24\uC5B4."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4325_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uB208\uCE58\uCC58\uC744\uC9C0\uB3C4 \uBAA8\uB974\uACA0\uC9C0\uB9CC,
+      \uB098\uB294 \uC904\uACE7 \uB124 \uACC1\uC5D0 \uC788\uC5C8\uAC70\uB4E0."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4325_4
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uB124\uAC00 \uC720\uB839\uC774 \uB418\uC5C8\uB2E4\uB294 \uAC83\uBD80\uD130,
+      \uBAA8\uB4E0 \uAC83\uC774 \uC608\uC0C1 \uBC16\uC758 \uB180\uB77C\uC6B4 \uD604\uC0C1\uB4E4\uC774\uC5C8\uC5B4\u2026."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4326_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC544, \uADF8\uB807\uC9C0. \uD558\uC9C0\uB9CC \uC9C0\uAE08\uC740 \uC544\uC9C1
+      \uB098\uC5D0 \uB300\uD574 \uD574\uBA85\uD560 \uB54C\uAC00 \uC544\uB2CC \uAC83
+      \uAC19\uC544."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4326_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u2026.\uBBF8\uC548\uD558\uC9C0\uB9CC \uC9C0\uAE08\uC740 \uBA3C\uC800,
+      \uB108\uC758 \uB300\uB2F5\uC744 \uB4E4\uB824\uC92C\uC73C\uBA74 \uD574."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4326_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC774\uAC74 \uAE30\uC5B5\uC758 \uC870\uAC01. \uC774\uAC78 \uAC00\uC9C0\uACE0
+      \u2018\uB098\u2019\uC5D0\uAC8C \uB2E4\uC2DC \uB9D0\uC744 \uAC78\uC5B4 \uB300\uB2F5\uC744
+      \uB4E4\uB824\uC8FC\uBA74 \uC774\uBC88 \uC5EC\uD589\uC740 \uB05D\uB098. \uADF8
+      \uB54C \uB124\uAC00 \uAD81\uAE08\uD574\uD558\uB294 \uACFC\uAC70\uC758 \uAE30\uC5B5\uC744
+      \uD55C \uAC00\uC9C0 \uC54C\uB824\uC904\uAC8C."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4326_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC880 \uB354 \uC2DC\uAC04\uC744 \uAC00\uC9C0\uACE0, \uC8FC\uC704\uB97C
+      \uB458\uB7EC\uBCF4\uBA70 \uC0DD\uAC01\uD574 \uBD10\uB3C4 \uC88B\uC544."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4327_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC654\uAD6C\uB098, \uC9C8\uBB38\uC740 \uAC04\uB2E8\uD574."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4327_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uB108\uB294 \uC2A4\uC2A4\uB85C\uAC00 \uC5B4\uB5A4 \uC874\uC7AC\uB77C\uACE0
+      \uC0DD\uAC01\uD558\uB294\uAC00. \uC5B4\uB5A4 \uC874\uC7AC\uC600\uC73C\uBA74
+      \uC88B\uC558\uC744\uAE4C\u2026."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4327_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC544\uB2C8\uBA74, \uC9C0\uAE08\uBD80\uD130 \uC5B4\uB5A4 \uC874\uC7AC\uC774\uACE0
+      \uC2F6\uB0D0\uACE0 \uBB3B\uB294 \uD3B8\uC774 \uC801\uC808\uD558\uB824\uB098."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4327_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uB098\uB294 \uC9C0\uAE08\uC758 \uB124 \uC0DD\uAC01\uC774 \uAD81\uAE08\uD560
+      \uBFD0\uC774\uC57C."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4328_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uC88B\uC544, \uB300\uB2F5\uC740?"
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4329_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC0B0\uC9C0\uAE30, \uACFC\uD559\uC790, \uB300\uD559\uC0DD, \uCD08\uB2A5\uB825
+      \uC720\uB839, \uB0A8\uC744 \uB3C4\uC6B8 \uC218 \uC788\uB294 \uC874\uC7AC, \uADF8\uB0E5
+      \uD3C9\uBC94\uD55C \uC544\uBB34\uB098\u2026. \u2018\uB098\u2019\uB294 \uC0DD\uAC01\uD558\uB294
+      \uB300\uB85C \uC9C8\uBB38\uC5D0 \uB2F5\uD558\uC600\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4330_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uADF8\uB807\uAD6C\uB098\u2026 \uB124 \uB098\uB984\uB300\uB85C, \uADF8\uB807\uAC8C
+      \uB9D0\uD55C \uC774\uC720\uAC00 \uC788\uACA0\uC9C0."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4330_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uD639\uC740 \uC815\uB9D0\uB85C \uD558\uACE0 \uC2F6\uC740 \uB9D0\uC740
+      \uB530\uB85C \uC788\uC5C8\uC744\uC9C0\uB3C4."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4330_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uB0B4\uAC00 \uD568\uBD80\uB85C \uD310\uB2E8\uD558\uAC70\uB098, \uAC1C\uC785\uD574\uC11C
+      \uB108\uC758 \uC0DD\uAC01\uC744 \uC65C\uACE1\uD574\uC11C\uB294 \uC548 \uB41C\uB2E4\uACE0
+      \uC0DD\uAC01\uD574. \uC5F0\uAD6C \uC724\uB9AC\uC758 \uAE30\uBCF8\uC774\uC9C0."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4330_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uADF8\uB7EC\uB2C8\uAE4C \uC57D\uC18D\uB300\uB85C \uC774\uAC78 \uB118\uACA8\uC904\uAC8C."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4330_4
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uB1CC\uC758 \uC190\uC0C1\uC73C\uB85C \uC778\uD574 \uB124\uAC00 \uAE30\uC5B5\uD560
+      \uC218 \uC5C6\uC5C8\uC744 \uC720\uC2E4\uB41C \uB370\uC774\uD130\uC758 \uC77C\uBD80\uC57C."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4330_5
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u2026.\uC6B0\uB9B0 \uACE7, \uB2E4\uC2DC \uB9CC\uB0A0 \uAC70\uC57C."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4331_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\uAE30\uC5B5\uC758 \uC870\uAC01\uC744 \uAC00\uC838\uC624\uBA74 \uADF8
+      \uB54C \uB124\uAC00 \uAD81\uAE08\uD574\uD558\uB294 \uACFC\uAC70\uC758 \uAE30\uC5B5\uC744
+      \uD55C \uAC00\uC9C0 \uC54C\uB824\uC904\uAC8C. \uC880 \uB354 \uC2DC\uAC04\uC744
+      \uAC00\uC9C0\uACE0, \uC8FC\uC704\uB97C \uB458\uB7EC\uBCF4\uBA70 \uC0DD\uAC01\uD574
+      \uBD10\uB3C4 \uC88B\uC544."
+    Speaker: 32133
+    TypingSpeed: 0.015
+  - TargetDialogId: 4332_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC811\uADFC \uAE08\uC9C0! \uC774\uAC70 \uC774 \uC790\uC2DD \uC65C
+      \uC774\uCABD\uC73C\uB85C \uC640?\u201D"
+    Speaker: 32132
+    TypingSpeed: 0.015
+  - TargetDialogId: 4333_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uC544, \uC544. \uC774 \uC9C0\uC5ED\uC740 \uC6B0\uB9AC\uB4E4
+      B\uAD6D\uAD70\uC758 \u2018\uBCF4\uD638\uAD00\uB9AC\u2019 \uD558\uC5D0 \uC788\uC2B5\uB2C8\uB2E4.
+      \uC9C0\uAE08\uC740 \uC804\uC2DC\uC785\uB2C8\uB2E4. \uC774\uD0C8\uD558\uB824\uB294
+      \uC2DC\uB3C4\uB294 \uC2DC\uBBFC\uC774 \uC544\uB2CC \uBC18\uB3D9\uBD84\uC790\uB85C
+      \uAC04\uC8FC, \uC989\uAC01 \uB300\uC751\uD569\uB2C8\uB2E4. \uB354 \uC774\uC0C1
+      \uB2E4\uAC00\uC624\uBA74 \uBC1C\uD3EC\uAE4C\uC9C0 \uAC00\uB2A5\uD569\uB2C8\uB2E4.\u201D"
+    Speaker: 32132
+    TypingSpeed: 0.015
+  - TargetDialogId: 4334_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uD56D\uC0DD\uC81C? \uBA39\uACE0 \uC8FD\uC744 \uAC83\uB3C4 \uC5C6\uB2E4,
+      \uC784\uB9C8. (\uBE44\uC18D\uC5B4) \uB098\uB77C\uAC00 \uC2DC\uD0A8\uB2E4\uACE0
+      \uC774 \uCD94\uC6B4 \uB370 \uB04C\uB824\uC640\uC11C \uAC1C\uACE0\uC0DD\uD558\uB294
+      \uC6B0\uB9AC\uD55C\uD14C\uB098 \uD56D\uC0DD\uC81C \uC904 \uAC83\uC774\uC9C0.\u201D"
+    Speaker: 32132
+    TypingSpeed: 0.015
+  - TargetDialogId: 4334_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uBA85\uC2EC\uD574, \uB364\uBE44\uBA74 \uAD6D\uBB3C\uB3C4 \uC5C6\uC5B4.
+      \uBA70\uCE60 \uC804\uC5D0\uB3C4 \uBA4B \uBAA8\uB974\uB294 \uB188 \uD558\uB098
+      \uD760\uC52C \uD328\uC92C\uC9C0. \uC717\uBD84\uB4E4 \uC77C\uC774 \uB05D\uB0A0
+      \uB54C\uAE4C\uC9C0 \uB108\uD76C A\uAD6D \uB188\uB4E4\uC740 \uC58C\uC804\uD788
+      \uC788\uC5B4\uC57C \uD560 \uAC70\uC57C.\u201D"
+    Speaker: 32132
+    TypingSpeed: 0.015
+  - TargetDialogId: 4335_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uAD70\uC778\uC740 \uAD49\uC7A5\uD788 \uC758\uC2EC\uC2A4\uB7EC\uC6B4
+      \uD45C\uC815\uC744 \uC9D3\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4335_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C...\uBAA8\uB974\uB294 \uCC99 \uD574\uB3C4 \uC18C\uC6A9\uC5C6\uC2B5\uB2C8\uB2E4.
+      \u2018\uBCF4\uD638\uAD00\uB9AC\u2019 \uC9C0\uC5ED\uC758 \uACBD\uACC4\uB97C
+      \uBC97\uC5B4\uB098\uB824\uB294 \uBAA8\uB4E0 \uC2DC\uB3C4\uB294 \uC5C4\uAE08\uB429\uB2C8\uB2E4.
+      \uB3CC\uC544\uAC00\uC2ED\uC2DC\uC624.\u201D"
+    Speaker: 32132
+    TypingSpeed: 0.015
+  - TargetDialogId: 4335_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uAC00\uB9CC, \uC5EC\uAE30 \uC0AC\uB294 \uB188 \uC544\uB2CC \uAC83
+      \uAC19\uC740\uB370? \uC717\uB9C8\uC744\uC778\uAC00? \uC65C \uBB18\uD558\uAC8C
+      \uB0AF\uC774 \uC775\uC9C0\u2026.\u201D"
+    Speaker: 32132
+    TypingSpeed: 0.015
+  - TargetDialogId: 4335_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C...\uC5D0\uC774 \uC528, \uBAA8\uB974\uACA0\uB2E4. \uCC29\uAC01\uC774\uACA0\uC9C0.
+      \uAC00\uC1FC, \uC9C4\uC9DC \uC3F4\uBC84\uB9AC\uAE30 \uC804\uC5D0.\u201D"
+    Speaker: 32132
+    TypingSpeed: 0.015
+  - TargetDialogId: 4336_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBE44\uB294 \uB0B4\uB9AC\uC9C0\uB9CC, \uC18C\uB140\uC758 \uB2F9\uCC2C
+      \uC5BC\uAD74\uC744 \uB36E\uB358 \uD76C\uBFCC\uC5F0 \uAD6C\uB984\uC740 \uB9D1\uAC8C
+      \uAC77\uD614\uB2E4. \uBD88\uD655\uC2E4\uD55C \uBBF8\uB798\uB97C \uBC14\uB77C\uBCFC
+      \uC6A9\uAE30\uB97C \uB0B8\uB2E4\uB294 \uAC83\uC774, \uC778\uAC04\uC774 \uAC00\uC9C8
+      \uC218 \uC788\uB294 \uAC15\uD568 \uC911 \uD558\uB098\uC778 \uAC78\uAE4C.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4337_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC544\uBB34\uB3C4 \uBCF4\uACE0 \uC788\uC9C0 \uC54A\uB2E4\uACE0 \uC0DD\uAC01\uD588\uB294\uC9C0,
+      \uC18C\uB144\uC740 \uC791\uC740 \uBAA9\uC18C\uB9AC\uB85C \uB178\uB798\uB97C
+      \uBD80\uB974\uAE30 \uC2DC\uC791\uD55C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4337_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uB178\uB798\uB294 \uB04A\uC5B4\uC9C8 \uB4EF, \uB04A\uC5B4\uC9C8 \uB4EF
+      \uACC4\uC18D\uD574\uC11C \uC774\uC5B4\uC838\uAC04\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4338_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uACE0\uB9D9\uC2B5\uB2C8\uB2E4\u2026 \uC120\uC0DD\uB2D8\uC744
+      \uC0B4\uB824\uC8FC\uC168\uB2E4\uBA74\uC11C\uC694.\u201D"
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4339_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\u2026. \uADF8\uB807\uAD6C\uB098, \uAE30\uC5B5\uC774 \uC5C6\uB294
+      \uC0C1\uD0DC\uC600\uAD6C\uB098. \uC804\u2026 \uD798\uB4E4\uC5B4\uC11C \uCC28\uB77C\uB9AC
+      \uAE30\uC5B5\uC744 \uB2E4 \uC783\uC5B4\uBC84\uB9AC\uBA74 \uC88B\uC744\uC9C0\uB3C4
+      \uBAA8\uB974\uACA0\uC5B4\uC694. \uC544\uC800\uC528\uB3C4 \uC2A4\uC2A4\uB85C
+      \uC78A\uC740 \uAC74 \uC544\uB2D0\uAE4C\uC694?\u201D"
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4340_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32102
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uC544\uC800\uC528\uAC00 \uBB50 \uAC19\uB0D0\uACE0\uC694\u2026?
+      \uC74C\u2026. \uC880\uBE44\u2026.? \uC544\uB2C8, \uC774\uAC74 \uADF8\uB0E5
+      \uB2EE\uC544\uC11C \uADF8\uB7F0 \uAC70\uACE0, \uADF8\u2026 \uC74C\u2026. \uC57D\uAC04
+      \uC120\uC0DD\uB2D8 \uAC19\uAE30\uB3C4.\u201D"
+    Speaker: 32102
+    TypingSpeed: 0.015
+  - TargetDialogId: 4341_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC0AC\uB78C \uBAA9\uC228\uC740 \uB9D0\uC57C, \uD558\uB098\uD558\uB098
+      \uC8FD\uC744 \uB54C\uB9C8\uB2E4 \uB9D0\uC57C, \uC5B4\uC5C9? \uC2EC\uC7A5 \uD558\uB098\uD558\uB098\uB9C8\uB2E4\uC758
+      \uB05D\uC7A5\uB098\uB294 \uBAA8\uD5D8\uB2F4\uC774 \uC804\uC124\uB85C \uB3CC\uC544\uAC00
+      \uBC84\uB9AC\uB294 \uAC70\uB2E4. \uB204\uAC00 \uB410\uB4E0 \uC6B0\uC2B5\uAC8C
+      \uBCFC \uC77C\uC774 \uC544\uB2C8\uC57C. \uC601\uD654\uCC98\uB7FC \uBA4B\uC9C0\uAC8C
+      \uC8FD\uC9C0\uB3C4 \uC54A\uB294\uB2E4\uACE0\u2026. \uADF8\uB798\uB3C4, \uC2F8\uC6CC\uC57C
+      \uD560 \uB550 \uC2F8\uC6CC\uC57C\uC9C0. \uB098\uCC98\uB7FC. \uADF8\uAC8C \uBA4B\uC788\uB294
+      \uAC70\uC57C.\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4342_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uB09C\u2026 \uAE38\uC774 \uBD88\uD0C0\uB294 \uB0A0 \uADF8\uAC70
+      \uBA40\uB9AC\uC11C \uBD24\uC218\uB2E4. \uC8FC\uC720\uC18C, \uD559\uAD50, \uC544\uD30C\uD2B8.
+      \uB2E4 \uBB49\uAC1C\uC84C\uC9C0. \uC0B0 \uC0AC\uB78C\uB4E4\uC774, \uC7A1\uD600
+      \uAC04 \uC0AC\uB78C\uB4E4 \uD480\uC5B4 \uB2EC\uB77C\uACE0 \uCD1D\uCE7C\uB3C4
+      \uC5C6\uC774 \uC2DC\uC704\uB97C \uD558\uB2E4\uAC00 \uD3EC\uD0C4\uC5D0 \uC8FD\uB354\uB77C\uACE0\u2026.
+      \uC5B4\uB514\uC11C \uADF8\uB7F0 \uC6A9\uAE30\uAC00 \uB098\uB294\uC9C0. \uD3C9\uBC94\uD55C
+      \uAC00\uC815\uC9D1\uB4E4, \uD559\uC0DD\uB4E4. \uADF8 \uC0AC\uB78C\uB4E4 \uAE61\uC774
+      \uB098 \uAC19\uC740 \uAE61\uD328\uBCF4\uB2E4 \uB354 \uC138\uB354\uB77C\uACE0.\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4343_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC790\uAE30\uAC00 \uB204\uAD70\uC9C0 \uAE30\uC5B5\uC774 \uC548
+      \uB09C\uB2E4\uB2C8 \uAC70 \uCC38 \uC131\uAC00\uC2DC\uACA0\uAD70. \uADFC\uB370
+      \uB098\uB77C\uBA74 \uAF2D \uC54C\uC544\uB0BC \uAC83 \uAC19\uC544. \uC54C\uC544\uB0B4\uC57C\uC9C0
+      \uADF8\uB7F4 \uB9CC\uD55C \uAC00\uCE58\uAC00 \uC788\uC5C8\uB294\uC9C0 \uC54C
+      \uC218 \uC788\uC9C0 \uC54A\uACA0\uC5B4?\u201D"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4413_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uB2E4\uC2DC \uD55C \uBC88 \uACE0\uB9C8\uC6CC, \uC61B\uB0A0\uC5D0
+      \uC544\uC800\uC528\uAC00 \uC5B4\uB5A4 \uC0AC\uB78C\uC774\uC5C8\uB354\uB77C\uB3C4\u2026.
+      \uB098\uB294 \uC9C0\uAE08 \uB3C4\uC640\uC900 \uAC78 \uAE30\uC5B5\uD560 \uAC70\uC57C.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4414_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uB0B4\uC77C \uB610 \uBB34\uC2A8 \uC77C\uC774 \uC0DD\uAE38\uC9C0,
+      \uC804\uD600 \uBAB0\uB77C. \uADF8\uB798\uB3C4 \uD558\uB8E8\uD558\uB8E8 \uC0B4
+      \uC218 \uC788\uB294 \uB0A0\uC774 \uB420 \uAC70\uB77C\uACE0 \uBBFF\uC744\uB798.
+      \uC0AC\uB78C\uC740 \uC0AC\uB78C\uC744 \uB3D5\uACE0 \uC2F6\uC740 \uB9C8\uC74C\uC774
+      \uC788\uACE0 \uC6D0\uB798 \uADF8\uB807\uB300. \uC624\uB298 \uC544\uC800\uC528\uAC00
+      \uB3C4\uC640\uC92C\uC73C\uB2C8\uAE4C, \uBBFF\uC744 \uC218 \uC788\uC5B4.\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4415_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32201
+    Npc2Portrait: 2
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uC544\uC800\uC528\uCC98\uB7FC\u2026 \uC2DC\uD0A4\uBA74 \uCC99\uCC99,
+      \uD574\uC57C \uD558\uBA74 \uC9E0 \uD558\uACE0 \uD574\uB0B4\uB294 \uC0AC\uB78C\uC774
+      \uC5B4\uB978\uC778 \uAC78\uAE4C? \uC560\uB2C8\uBA54\uC774\uC158 \uC18D \uB85C\uBCF4\uD2B8\uB3C4
+      \uC544\uB2C8\uACE0. \uC5B4\uB978\uB4E4\uC774 \uC65C \uD53C\uACE4\uD574\uD558\uB294\uC9C0
+      \uC54C \uAC83 \uAC19\uC544\u2026. \uADF8\uB798\uB3C4 \uB09C \uAF2D \uC5B4\uB978\uC774
+      \uB418\uACE0 \uC2F6\uC5B4!\u201D"
+    Speaker: 32201
+    TypingSpeed: 0.015
+  - TargetDialogId: 4416_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32103
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uADF8\uB294 \uACC4\uC18D \uBB34\uC5B8\uAC00\uB97C \uACE0\uBBFC\uD558\uB4EF
+      \uC911\uC5BC\uAC70\uB9AC\uAC70\uB098, \uC624\uD1A0\uBC14\uC774 \uD578\uB4E4\uC5D0
+      \uD314\uAFC8\uCE58\uB97C \uAE30\uB300\uBA70 \uBA38\uB9AC\uB97C \uC2F8\uC950\uAE30\uB3C4
+      \uD55C\uB2E4. \uB098\uB984\uB300\uB85C\uC758 \uACE0\uB1CC\uAC00 \uC788\uB294
+      \uAC70\uACA0\uC9C0.)"
+    Speaker: 32103
+    TypingSpeed: 0.015
+  - TargetDialogId: 4417_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uB178\uC778\uB4E4\uC774 \uC8FD\uC744 \uB54C\uAC00 \uB418\uBA74 \uADC0\uC2E0\uC744
+      \uBCF8\uB2E4\uB294 \uC18D\uC124\uC774 \uC788\uB2E4. \uC9C0\uAE08 \u2018\uB098\u2019\uC758
+      \uC874\uC7AC\uB97C \uB208\uCE58\uCC44\uC9C0 \uBABB\uD558\uB294 \uAC83\uC744
+      \uACE0\uB824\uD558\uBA74, \uD560\uBA38\uB2C8\uB294 \uC544\uB9C8 \uC18C\uC6D0\uB300\uB85C
+      \uC624\uB798 \uC0B4 \uC218 \uC788\uC744 \uAC83\uC774\uB2E4\u2026.)"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4417_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "(\uC774\uB7F0 \uC0AC\uC18C\uD55C \uC815\uBCF4\uAC00 \uC544\uB2C8\uB77C,
+      \uB2E4\uB978 \uAC78 \uAE30\uC5B5\uD574\uB0B4\uB294 \uD3B8\uC774 \uB098\uC744
+      \uD150\uB370. \uC5B8\uC820\uAC00 \uC774 \uB1CC \uC18D\uC758 \uD37C\uC990\uC744
+      \uB354 \uB9DE\uCDB0\uB098\uAC08 \uC218 \uC788\uAE30\uB97C.)"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4418_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uB0B4\uAC00 \uB204\uAD6C\uC778\uC9C0\uB97C \uC78A\uB294\uB2E4\uBA74
+      \uC5B4\uB5BB\uAC8C \uC0B4 \uAC83 \uAC19\uB0D0\uACE0\u2026. \uD5C8\uD5C8. \uB098\uB294
+      \uB299\uC740\uC774\uB77C\uB124. \uCE58\uB9E4\uC5D0 \uAC78\uB9B0\uB2E4\uBA74
+      \uADF8\uB807\uAC8C \uB418\uACA0\uC9C0. \uC138\uC0C1\uC5D4 \uADF8\uB7F0 \uC77C\uB3C4
+      \uC77C\uC5B4\uB0A0 \uC218 \uC788\uB294 \uBC95\uC774\uC9C0\u2026. \uD558\uC9C0\uB9CC
+      \uD798\uB4E4\uACA0\uC9C0, \uC544\uC9C1 \uC80A\uC740\uB370.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4419_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201D\uC194\uC9C1\uD558\uAC8C \uC598\uAE30\uD574\uC904\uAE4C\u2026.
+      \uB2F9\uC2E0, \uB530\uC545 \uBD10\uB3C4 \uC774 \uB09C\uB9AC\uD1B5\uC5D0 \uC0B4\uC774
+      \uC804\uD600 \uC548 \uB0B4\uB9B0 \uAC8C \uC774 \uADFC\uBC29 \uC0AC\uB78C \uAC19\uC9C0\uB294
+      \uC54A\uC558\uC5B4. \uADF8\uB7FC \uC5B4\uB514\uACA0\uC5B4\u2026. \uBD80\uCD0C?
+      \uBC14\uAE65? \uD640\uD640. \uADF8\uB3C4 \uC544\uB2C8\uBA74, \uC800\uAE30 \uC800\uC9DD\u2026?
+      \uC120\uC0DD\uB124\uB97C \uB3C4\uC640\uC8FC\uAE38\uB798 \uC7A0\uC790\uCF54
+      \uC788\uC5C8\uB358 \uAC8C\uC57C. \uC800 \uC9D1 \uC560\uB4E4\uC740\u2026 \uB0B4,
+      \uBB38 \uC5F4\uC5B4\uB193\uACE0 \uC9C0\uCF1C\uBCF4\uACE0 \uC788\uAC70\uB4E0.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4420_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: 32104
+    Npc2Portrait: 0
+    NpcActive: 2
+    Background: -1
+    Scripts: "\u201C\uC218\uC218\uAED8\uB07C\uB97C \uB0A8\uACA8\uB193\uC73C\uBA74
+      \uB0B4\uC77C \uD560 \uC218 \uC788\uC9C0\u2026. \uB098\uB294 \uC804\uC7C1 \uC804\uC5D0
+      \uB0A8\uD3B8\uC774 \uC0AC \uB454 \uC2ED\uC790\uB9D0\uD480\uC774 \uCC45\uC744
+      \uC544\uC9C1\uB3C4 \uB2E4 \uC548 \uD480\uC5C8\uB2E4\uB124.\u201D"
+    Speaker: 32104
+    TypingSpeed: 0.015
+  - TargetDialogId: 4421_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uAC10\uC0AC\uD569\uB2C8\uB2E4, \uC800\u2026. \uC774\uC57C\uAE30\uB294
+      \uB4E4\uC5C8\uC2B5\uB2C8\uB2E4\u2026. \uB300\uD559 \uAC00\uB294 \uAE38\uC744,
+      \uCC3E\uC73C\uC2E0\uB2E4\uACE0\u2026.\u201D"
+    Speaker: 32105
+    TypingSpeed: 0.015
+  - TargetDialogId: 4421_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201C\uAE68\uB057\uD558\uAC8C \uC9C0\uC6CC\uC9C4 \uBC31\uC9C0 \uAC19\uC740
+      \uBA38\uB9BF\uC18D\uC774\uB77C\u2026 \uADF8\uB7EC\uBA74 \uC544\uBB34\uB7F0
+      \uC120\uC785\uACAC\uB3C4 \uB2F9\uC2E0\uC758 \uAC00\uCE58\uD310\uB2E8\uC5D0
+      \uC601\uD5A5\uC744 \uBBF8\uCE58\uC9C0 \uBABB\uD588\uACA0\uB124\uC694. \uB9C8\uCE58,
+      \uBB34\uC9C0\uC758 \uBCA0\uC77C \uC18D\uC5D0\uC11C \uBC14\uB77C\uBCF4\uB294
+      \uC138\uC0C1\uCC98\uB7FC\uC694.\u201D"
+    Speaker: 32105
+    TypingSpeed: 0.015
+  - TargetDialogId: 4421_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201D\uCF5C\uB85D, \uADF8\uB7F0 \uCABD\uC73C\uB85C \uACF5\uBD80\uB97C
+      \uD588\uC5C8\uAC70\uB4E0\uC694. \uBB34\uC9C0\uC758 \uBCA0\uC77C\uC774\uB780
+      \uCCA0\uD559\uC758 \uAC1C\uB150\uC785\uB2C8\uB2E4. \uC138\uC0C1\uC744 \uACF5\uC815\uD558\uAC8C
+      \uBCF4\uAE30 \uC704\uD574\uC11C \uBAA8\uB4E0 \uAC78 \uC78A\uB294 \uAC70\uC8E0.\u201D"
+    Speaker: 32105
+    TypingSpeed: 0.015
+  - TargetDialogId: 4421_3
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\u201D\u2026.\uADF8\uB7F0 \uC0C1\uD0DC\uC600\uB2E4\uBA74, \uD639\uC740
+      \uADF8\uAC8C \uC544\uB2C8\uB77C\uBA74, \uBB34\uC5C7\uC774 \uB2F9\uC2E0\uC73C\uB85C
+      \uD558\uC5EC\uAE08 \uC6B0\uB9AC\uB97C \uB3D5\uAC8C \uD558\uB294 \uB370 \uC601\uD5A5\uC744
+      \uC8FC\uC5C8\uC744\uAE4C\uC694. \uC6B0\uC5F0\uC774\uB4E0 \uBB34\uC5C7\uC774\uB4E0\u2026.
+      \uCC38 \uAC10\uC0AC\uD55C \uC77C\uC785\uB2C8\uB2E4.\u201D"
+    Speaker: 32105
+    TypingSpeed: 0.015
+  - TargetDialogId: 4422_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC18C\uB140\uC758 \uC77C\uAE30\uC5D0\uB294 \uC0C8\uB85C\uC6B4 \uD398\uC774\uC9C0\uAC00
+      \uCD94\uAC00\uB418\uC5B4 \uC788\uB2E4. \uB2F3\uC544\uAC00\uB294 \uBABD\uB2F9\uC5F0\uD544\uB85C
+      \uAFB9\uAFB9 \uB20C\uB7EC\uC11C \uAC04\uB2E8\uD558\uAC8C \uC801\uD600 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4422_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\u201D\uC624\uB298\uC758 \uB0A0\uC528\uB294 \uB2E8\uBE44. \uC120\uC0DD\uB2D8\uC774
+      \uC870\uAE08 \uB098\uC544\uC9C0\uC168\uB2E4. \uC2E0\uAE30\uD55C \uC77C\uC774\uC57C.
+      \uCC98\uC74C \uBCF8 \uC544\uC800\uC528\uAC00 \uB0B4\uAC00 \uACC4\uC18D \uAE30\uC801\uC744,
+      \uADF8\uB9AC\uACE0 \uC2A4\uC2A4\uB85C\uB97C \uBBFF\uC744 \uC218 \uC788\uAC8C
+      \uD574\uC92C\uC73C\uB2C8\uAE4C.\u201D \uB77C\uACE0\u2026.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4423_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBC30\uD130\uB9AC\uAC00 \uBA48\uCD98 \uC790\uB3D9\uD310\uB9E4\uAE30\uAE30.
+      \uC0AC\uACE0\uAC00 \uC880 \uB354 \uBA85\uC9D5\uD574\uC9C0\uACE0 \uB098\uC11C
+      \uC0DD\uAC01\uD558\uB2C8, \uC5B4\uCA4C\uBA74 \uB098\uB294 \uC6D0\uB798 \uCE74\uB4DC\uD0A4\uB97C
+      \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uACE0\uB3C4 \uC774 \uAE30\uACC4\uB97C \uD574\uD0B9\uD560
+      \uB2A5\uB825\uC774 \uC788\uC5C8\uB358 \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6000_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uBC29\uAE08\uC758.... \uADF8\uAC74, \uBB50\uC600\uC744\uAE4C....\""
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6000_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "\"\uAE30\uC5B5\uC758... \uCE58\uBA85\uC801\uC778 \uC190\uC0C1. \uC544\uB798\uC5D0...
+      \uC721\uCCB4\uAC00 \uBCF4\uC778\uB2E4. \uC77C\uB2E8\uC740, \uC721\uCCB4\uC5D0
+      \uB4E4\uC5B4\uAC00\uC57C \uD55C\uB2E4.\""
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6001_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC774 \uC8FC\uBCC0\uC5D0\uC11C \uBBF8\uBBF8\uD55C \uC804\uC790\uD30C\uAC00
+      \uAC10\uC9C0\uB41C\uB2E4. \uADFC\uCC98\uC5D0 \uAE30\uACC4\uAC00 \uC788\uB294
+      \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6002_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC778\uAE30\uCC99\uC774 \uB290\uAEF4\uC9C0\uB294 \uB9C8\uC744\uC5D0
+      \uBC1C\uC744 \uB514\uB3A0\uB2E4. \uC774\uACF3\uC5D0 \uB204\uAD70\uAC00... '\uB098'\uB97C
+      \uAE30\uC5B5\uD558\uB294 \uC0AC\uB78C\uC774 \uC788\uC744\uAE4C?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6003_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC5B4\uB518\uAC00\uC5D0\uC11C \uCF54\uB97C \uCC21\uADF8\uB9AC\uAC8C
+      \uD558\uB294 \uC545\uCDE8\uAC00 \uC62C\uB77C\uC628\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6004_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBCD1\uC6D0, \uC758\uC2DD\uC774 \uC5C6\uB294 \uC0AC\uB78C\uB4E4\uC774
+      \uCE68\uB300\uB9C8\uB2E4 \uB204\uC6CC \uC788\uB294 \uACF5\uAC04.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6004_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "('\uB098' \uB610\uD55C, \uC774\uB807\uAC8C \uB298\uC5B4\uC838 \uC6C0\uC9C1\uC784\uC774
+      \uC5C6\uB294 \uB098\uC758 \uC721\uCCB4\uB97C \uB0B4\uB824\uB2E4\uBCF4\uB358
+      \uAC83\uC774 \uCCAB \uAE30\uC5B5\uC774\uC5C8\uB2E4. \uADF8\uB7EC\uB098 \uB098\uB294
+      \uC544\uC9C1 \uC6C0\uC9C1\uC77C \uC218 \uC788\uB2E4, \uC774\uB4E4\uACFC\uB294
+      \uB2E4\uB974\uAC8C.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6005_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uAE38\uACE0\uC591\uC774\uB97C \uBCF4\uB294 \uC21C\uAC04, \uB140\uC11D\uC758
+      \uC2E0\uACBD\uACC4\uB97C \uC7A5\uC545\uD560 \uC218 \uC788\uC744 \uAC83 \uAC19\uB2E4\uB294
+      \uAC15\uB825\uD55C \uC9C1\uAC10\uC774 \uB4E4\uC5C8\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6005_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uADF8\uB7EC\uB098 \uADF8\uB3D9\uC548 \uB9CC\uB09C \uC0AC\uB78C\uB4E4\uC758
+      \uC2E0\uACBD\uACC4\uB97C \uC7A5\uC545\uD560 \uC218\uB294 \uC5C6\uB294 \uAC83
+      \uAC19\uB2E4. '\uBE59\uC758'\uC5D0\uB294, \uC544\uC9C1 \uB0B4\uAC00 \uAE30\uC5B5\uD558\uC9C0
+      \uBABB\uD558\uB294 \uC870\uAC74\uC774 \uC788\uB294 \uAC83\uC77C\uAE4C...?)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6006_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uB9E4\uC6B0 \uC881\uC740 \uD2C8.... \uACFC\uC5F0 \uAE38\uACE0\uC591\uC774
+      \uC815\uB3C4\uC758 \uC791\uC740 \uBAB8\uC9D1\uC73C\uB85C\uB098 \uD1B5\uACFC\uD560
+      \uC218 \uC788\uC744 \uAC83 \uAC19\uB2E4. \uBB34\uB108\uC838 \uBBF8\uB85C\uCC98\uB7FC
+      \uB418\uC5B4\uBC84\uB838\uC9C0\uB9CC \uBCF8\uB798\uB294 \uAC70\uC8FC\uAD6C\uC5ED\uC774\uC5C8\uB358
+      \uBAA8\uC591\uC774\uB77C \uBB54\uAC00 \uC4F8\uB9CC\uD55C \uAC8C \uB0A8\uC544\uC788\uC744\uC9C0\uB3C4
+      \uBAA8\uB978\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6007_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBC14\uB2E5\uC5D0 \uC0AC\uD0D5\uC774 \uB5A8\uC5B4\uC838 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6008_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\u2018\uB098\u2019\uC758 \uD488 \uC548\uC5D0 \uBAA8\uC790\uAC00 \uC788\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6008_1
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\u2018\uB098\u2019\uC758 \uC721\uCCB4\uB294 \uBA38\uB9AC \uBD80\uC704\uC5D0
+      \uD070 \uC0C1\uCC98\uAC00 \uC788\uC5B4\uC11C, \uC678\uC801\uC73C\uB85C \uB180\uB784
+      \uB9CC\uD55C \uBAB0\uACE8\uC77C \uAC83\uC774\uB2E4.\u2026 \uADF8\uC5D0 \uBE44\uD574
+      \u2018\uB0B4\u2019 \uC6C0\uC9C1\uC784\uC5D0\uB294, \uC758\uC678\uB85C \uBCC4\uB2E4\uB978
+      \uC81C\uC57D\uC774 \uB290\uAEF4\uC9C0\uC9C0 \uC54A\uB294\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 6008_2
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC544\uB9C8 \uBC16\uC73C\uB85C \uB098\uAC08\uB54C\uB294 \uC774 \uBAA8\uC790\uB85C
+      \uBA38\uB9AC\uC758 \uC0C1\uCC98\uB97C \uAC00\uB824\uC57C \uD560 \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4313_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uD558\uC218\uAD6C. \uC624\uC5FC\uB41C \uBB3C\uC744 \uD758\uB824\uBCF4\uB0B4\uB294
+      \uC2DC\uC124\uC774\uB2E4. \uACE0\uC57D\uD55C \uC545\uCDE8\uAC00 \uB09C\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 4314_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC544\uB798\uC5D0 \uBB54\uAC00 \uBC18\uC9DD\uC774\uB294 \uAE08\uC18D\uC131\uC758
+      \uBB3C\uAC74\uC774 \uC788\uB2E4. \uC5F4\uC1E0. \uB09A\uC2EF\uB300 \uAC19\uC740
+      \uAC8C \uC788\uB2E4\uBA74 \uAEBC\uB0BC \uC218 \uC788\uC744 \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 9001_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uC815\uB2F5\uC744 \uB9DE\uCDB0 \uBB38\uC774 \uC5F4\uB838\uB2E4. \uC548\uC5D0\uC11C
+      \uBC16\uC73C\uB85C \uB098\uAC08 \uB54C\uB3C4 \uBE44\uBC00\uBC88\uD638\uB97C
+      \uC785\uB825\uD558\uB294 \uBB38... \uADF8\uB7F0 \uAC83\uC774 \uD754\uD558\uB358\uAC00?
+      '\uB098'\uB294 \uC6B0\uC120 \uD488\uC548\uC758 \uBAA8\uC790\uB97C \uAEBC\uB0B4
+      \uC368\uC11C \uBA38\uB9AC\uC758 \uCD1D\uC0C1\uC744 \uAC00\uB9AC\uACE0 \uBC14\uAE65\uC73C\uB85C
+      \uD5A5\uD588\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  - TargetDialogId: 9002_0
+    Npc1: -1
+    Npc1Portrait: -1
+    Npc2: -1
+    Npc2Portrait: -1
+    NpcActive: -1
+    Background: -1
+    Scripts: "(\uBE44\uBC00\uBC88\uD638\uAC00 \uD2C0\uB9B0 \uAC83 \uAC19\uB2E4.)"
+    Speaker: 0
+    TypingSpeed: 0.015
+  EndActions:
+  - Id: 900_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 901_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 902_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 903_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 904_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 905_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 906_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 2542_0
+    EndActionType: 11
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 4105_0
+    EndActionType: 4
+    Value1: 4106
+    Value2: "\uC5F4\uC5B4 \uBCF8\uB2E4."
+    Value3: 
+  - Id: 4105_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4109_0
+    EndActionType: 10
+    Value1: 
+    Value2: 
+    Value3: 9001,9002
+  - Id: 4112_0
+    EndActionType: 4
+    Value1: 4113
+    Value2: "\uAE30\uB85D\uD55C\uB2E4."
+    Value3: 
+  - Id: 4112_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4113_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 4202_0
+    EndActionType: 4
+    Value1: 4203
+    Value2: "\uC544\uB9C8\uB3C4 \uACFC\uD559\uC790?"
+    Value3: 
+  - Id: 4202_1
+    EndActionType: 4
+    Value1: 4203
+    Value2: "\uB098\uB3C4 \uBAB0\uB77C."
+    Value3: 
+  - Id: 4203_0
+    EndActionType: 4
+    Value1: 4205
+    Value2: "\uC7A1\uD600\uAC00?"
+    Value3: 
+  - Id: 4203_1
+    EndActionType: 4
+    Value1: 4206
+    Value2: "\uB300\uD559\uAD50?"
+    Value3: 
+  - Id: 4205_0
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uADF8\uB807\uAD6C\uB098."
+    Value3: 
+  - Id: 4205_1
+    EndActionType: 4
+    Value1: 4206
+    Value2: "\uB300\uD559\uAD50\uB294 \uC5B4\uB518\uB370?"
+    Value3: 
+  - Id: 4206_0
+    EndActionType: 4
+    Value1: 4205
+    Value2: "\uC7A1\uD600\uAC04\uB2E4\uB294 \uAC74?"
+    Value3: 
+  - Id: 4206_1
+    EndActionType: 4
+    Value1: 4207
+    Value2: "\uBC29\uBC95\uC774 \uC5C6\uB098..."
+    Value3: 
+  - Id: 4207_0
+    EndActionType: 4
+    Value1: 4208
+    Value2: "\uB0B4\uAC00 \uAD6C\uD574\uC62C\uAC8C."
+    Value3: 
+  - Id: 4207_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uADF8\uAC74 \uC720\uAC10\uC774\uB124."
+    Value3: 
+  - Id: 4208_0
+    EndActionType: 7
+    Value1: 21
+    Value2: 
+    Value3: 
+  - Id: 4211_0
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uC544\uC9C1\uC774\uC57C."
+    Value3: 
+  - Id: 4211_1
+    EndActionType: 4
+    Value1: 4212
+    Value2: "\uAC74\uB124\uC900\uB2E4."
+    Value3: 
+  - Id: 4212_0
+    EndActionType: 2
+    Value1: 1102
+    Value2: 3
+    Value3: 4214,4213,4213
+  - Id: 4213_0
+    EndActionType: 9
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 4214_0
+    EndActionType: 8
+    Value1: 21,1102
+    Value2: 3
+    Value3: 
+  - Id: 4215_0
+    EndActionType: 6
+    Value1: 4211
+    Value2: 
+    Value3: 
+  - Id: 4216_0
+    EndActionType: 6
+    Value1: 4211
+    Value2: 
+    Value3: 
+  - Id: 4217_0
+    EndActionType: 6
+    Value1: 4211
+    Value2: 
+    Value3: 
+  - Id: 4218_0
+    EndActionType: 6
+    Value1: 4211
+    Value2: 
+    Value3: 
+  - Id: 4219_0
+    EndActionType: 6
+    Value1: 4211
+    Value2: 
+    Value3: 
+  - Id: 4220_0
+    EndActionType: 6
+    Value1: 4211
+    Value2: 
+    Value3: 
+  - Id: 4221_0
+    EndActionType: 4
+    Value1: 4222
+    Value2: "\uCE5C\uAD6C\uB4E4\uC744 \uADF8\uB9B0\uAC70\uB2C8?"
+    Value3: 
+  - Id: 4221_1
+    EndActionType: 4
+    Value1: 4223
+    Value2: "\uC774\uAC70 \uAC00\uC9C8\uB798?"
+    Value3: 
+  - Id: 4223_0
+    EndActionType: 3
+    Value1: 1103,1202
+    Value2: 1,1
+    Value3: 1004,1003
+  - Id: 4224_0
+    EndActionType: 4
+    Value1: 4225
+    Value2: "\uC218\uC5B4\uB97C \uD574\uBCF8\uB2E4."
+    Value3: 
+  - Id: 4224_1
+    EndActionType: 4
+    Value1: 4226
+    Value2: "\uC6C3\uAE34 \uD45C\uC815 \uC9D3\uAE30."
+    Value3: 
+  - Id: 4228_0
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uC0AC\uC801\uC778 \uAE30\uB85D\uC740 \uB410\uC5B4."
+    Value3: 
+  - Id: 4228_1
+    EndActionType: 4
+    Value1: 4229
+    Value2: "\uC77D\uC5B4\uBCF8\uB2E4."
+    Value3: 
+  - Id: 4229_0
+    EndActionType: 4
+    Value1: 4230
+    Value2: "\uC18C\uB140\uC758 \uC77C\uAE30"
+    Value3: 
+  - Id: 4229_1
+    EndActionType: 4
+    Value1: 4232
+    Value2: "\uC120\uC0DD\uB2D8\uC758 \uC77C\uAE30"
+    Value3: 
+  - Id: 4239_0
+    EndActionType: 4
+    Value1: 4241
+    Value2: "\uC720\uAC10\uC744 \uD45C\uD55C\uB2E4."
+    Value3: 
+  - Id: 4239_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4241_0
+    EndActionType: 4
+    Value1: 4243
+    Value2: "\uD56D\uC0DD\uC81C \uAD6C\uD558\uAE30."
+    Value3: 
+  - Id: 4241_1
+    EndActionType: 4
+    Value1: 4244
+    Value2: "\uB09A\uC2DC\uB300 \uBE4C\uB9AC\uAE30."
+    Value3: 
+  - Id: 4244_0
+    EndActionType: 0
+    Value1: 1203
+    Value2: 1
+    Value3: 
+  - Id: 4247_0
+    EndActionType: 4
+    Value1: 4248
+    Value2: "\uD56D\uC0DD\uC81C \uAD6C\uD558\uAE30."
+    Value3: 
+  - Id: 4247_1
+    EndActionType: 4
+    Value1: 4250
+    Value2: "\uD639\uC2DC \uC800\uB97C \uC544\uB098\uC694?"
+    Value3: 
+  - Id: 4255_0
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uAEBC\uC838\uC57C\uACA0\uAD70."
+    Value3: 
+  - Id: 4255_1
+    EndActionType: 4
+    Value1: 4256
+    Value2: "\uB9D0 \uC880 \uBB3B\uC8E0."
+    Value3: 
+  - Id: 4256_0
+    EndActionType: 4
+    Value1: 4257
+    Value2: "\uD398\uD5C8\uB77C\uB294 \uAC74..."
+    Value3: 
+  - Id: 4256_1
+    EndActionType: 4
+    Value1: 4260
+    Value2: "\uC0AC\uB78C\uC774 \uC5C6\uC5B4\uC838?"
+    Value3: 
+  - Id: 4257_0
+    EndActionType: 4
+    Value1: 4260
+    Value2: "\uC0AC\uB78C\uC774 \uC5C6\uC5B4\uC838?"
+    Value3: 
+  - Id: 4257_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uADF8\uB807\uAD70."
+    Value3: 
+  - Id: 4260_0
+    EndActionType: 4
+    Value1: 4257
+    Value2: "\uD398\uD5C8\uB77C\uB294 \uAC74..."
+    Value3: 
+  - Id: 4260_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uADF8\uB807\uAD70."
+    Value3: 
+  - Id: 4263_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 4266_0
+    EndActionType: 4
+    Value1: 4313
+    Value2: "\uC790\uC138\uD788 \uC0B4\uD3B4\uBCF8\uB2E4."
+    Value3: 
+  - Id: 4266_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4267_0
+    EndActionType: 4
+    Value1: 4268
+    Value2: "\uC790\uC138\uD788 \uC0B4\uD3B4\uBCF8\uB2E4."
+    Value3: 
+  - Id: 4267_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4268_0
+    EndActionType: 4
+    Value1: 4269
+    Value2: "\uAEBC\uB0B4\uBCF4\uC790."
+    Value3: 
+  - Id: 4268_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4269_0
+    EndActionType: 3
+    Value1: 1202,1205,1203,-1
+    Value2: 1,1,1,-1
+    Value3: 1005,1006
+  - Id: 4271_0
+    EndActionType: 4
+    Value1: 4272
+    Value2: "\uCE74\uB4DC\uD0A4 \uC778\uC2DD\uD558\uAE30."
+    Value3: 
+  - Id: 4271_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC00\uAE30."
+    Value3: 
+  - Id: 4272_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 4273_0
+    EndActionType: 4
+    Value1: 4277
+    Value2: "\uD56D\uC0DD\uC81C \uC8FC\uBB38"
+    Value3: 
+  - Id: 4273_1
+    EndActionType: 4
+    Value1: 4274
+    Value2: "\uB2F4\uBC30 \uC8FC\uBB38"
+    Value3: 
+  - Id: 4277_0
+    EndActionType: 4
+    Value1: 4297
+    Value2: "\uAD00\uB9AC\uC790 \uAD8C\uD55C"
+    Value3: 
+  - Id: 4277_1
+    EndActionType: 4
+    Value1: 4280
+    Value2: "\uACB0\uC81C\uD558\uAE30."
+    Value3: 
+  - Id: 4279_0
+    EndActionType: 0
+    Value1: 1102
+    Value2: 1
+    Value3: 
+  - Id: 4280_0
+    EndActionType: 4
+    Value1: 4281
+    Value2: "\uCE74\uB4DC\uD0A4\uB97C \uC778\uC2DD"
+    Value3: 
+  - Id: 4280_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3C8\uC774 \uC5C6\uB294\uB370..."
+    Value3: 
+  - Id: 4297_0
+    EndActionType: 10
+    Value1: 
+    Value2: 
+    Value3: 4279,4278
+  - Id: 4299_0
+    EndActionType: 4
+    Value1: 4300
+    Value2: "\uAE30\uB85D\uD55C\uB2E4."
+    Value3: 
+  - Id: 4299_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4300_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 4308_0
+    EndActionType: 0
+    Value1: 1102
+    Value2: 1
+    Value3: 
+  - Id: 4311_0
+    EndActionType: 4
+    Value1: 4312
+    Value2: "\uC800\uC7A5\uD55C\uB2E4"
+    Value3: 
+  - Id: 4311_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4312_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 4313_0
+    EndActionType: 4
+    Value1: 4314
+    Value2: "\uC790\uC138\uD788 \uC0B4\uD3B4\uBCF8\uB2E4."
+    Value3: 
+  - Id: 4313_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4325_0
+    EndActionType: 4
+    Value1: 4326
+    Value2: "\uB10C \uB300\uCCB4 \uB204\uAD6C\uC9C0?"
+    Value3: 
+  - Id: 4325_1
+    EndActionType: 4
+    Value1: 4326
+    Value2: "\uC369 \uC720\uCF8C\uD558\uC9C4 \uC54A\uC740\uB370."
+    Value3: 
+  - Id: 4326_0
+    EndActionType: 0
+    Value1: 1205
+    Value2: 1
+    Value3: 
+  - Id: 4327_0
+    EndActionType: 4
+    Value1: 4328
+    Value2: "\uC9C0\uAE08 \uB300\uB2F5\uD558\uC9C0."
+    Value3: 
+  - Id: 4327_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uC870\uAE08 \uB354 \uACE0\uBBFC\uD560\uAC8C."
+    Value3: 
+  - Id: 4328_0
+    EndActionType: 4
+    Value1: 4329
+    Value2: "\uB098\uC758 \uC815\uCCB4\uB294 \uC544\uB9C8\uB3C4\u2026."
+    Value3: 
+  - Id: 4328_1
+    EndActionType: 4
+    Value1: 4330
+    Value2: "\uB0B4\uAC00 \uBB54\uC9C0\uB294 \uC911\uC694\uCE58 \uC54A\uC544."
+    Value3: 
+  - Id: 4329_0
+    EndActionType: 6
+    Value1: 4330
+    Value2: 
+    Value3: 
+  - Id: 4330_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 4332_0
+    EndActionType: 4
+    Value1: 4333
+    Value2: "\uCCD0\uB2E4\uBCF8\uB2E4."
+    Value3: 
+  - Id: 4332_1
+    EndActionType: 4
+    Value1: -1
+    Value2: "\uB3CC\uC544\uAC04\uB2E4."
+    Value3: 
+  - Id: 4333_0
+    EndActionType: 4
+    Value1: 4334
+    Value2: "\uD56D\uC0DD\uC81C \uC5C6\uB098\uC694?"
+    Value3: 
+  - Id: 4333_1
+    EndActionType: 4
+    Value1: 4335
+    Value2: "\uC5EC\uAE34 \uBB50\uAC00 \uC788\uAE38\uB798?"
+    Value3: 
+  - Id: 6005_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 6007_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  - Id: 9001_0
+    EndActionType: 5
+    Value1: 
+    Value2: 
+    Value3: 
+  DialogImages:
+  - Id: 32201
+    Value: 0
+    Path: Sprite/Portraits/FeistyGirl0
+  - Id: 32201
+    Value: 1
+    Path: Sprite/Portraits/FeistyGirl1
+  - Id: 32201
+    Value: 2
+    Path: Sprite/Portraits/FeistyGirl2
+  - Id: 32102
+    Value: 0
+    Path: Sprite/Portraits/QuietLittleBoy
+  - Id: 32103
+    Value: 0
+    Path: Sprite/Portraits/Gangster0
+  - Id: 32104
+    Value: 0
+    Path: Sprite/Portraits/GrandMa
+  - Id: 11111
+    Value: 0
+    Path: Sprite/Backgrounds/GirlDiary0
+  - Id: 22222
+    Value: 0
+    Path: Sprite/Backgrounds/TeacherDiary0
+  - Id: 33333
+    Value: 0
+    Path: Sprite/Backgrounds/GirlDiary1
+  - Id: 44444
+    Value: 0
+    Path: Sprite/Backgrounds/TeacherDiary1
+  - Id: 66666
+    Value: 0
+    Path: Sprite/Backgrounds/TeacherDiary2
+  - Id: 88888
+    Value: 0
+    Path: Sprite/Backgrounds/TeacherDiary3
+  - Id: 1010101010
+    Value: 0
+    Path: Sprite/Backgrounds/TeacherDiary4
+  - Id: 32000
+    Value: 0
+    Path: Sprite/Backgrounds/FeistyGirl0
+  - Id: 3310501
+    Value: 0
+    Path: Sprite/Backgrounds/MothersNote0
+  MileStones:
+  - TargetDialogId: 4109_0
+    MileStone: "\uC232\uC5D0\uC11C \uB098\uAC00\uC790"
+  - TargetDialogId: 4208_0
+    MileStone: "\uD56D\uC0DD\uC81C\uB97C 3\uAC1C \uAD6C\uD558\uC790"
+  - TargetDialogId: 4214_0
+    MileStone: "\uB2E4\uC74C \uB9C8\uC744\uB85C \uC774\uB3D9\uD558\uC790"
